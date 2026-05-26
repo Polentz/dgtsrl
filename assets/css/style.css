@@ -1,0 +1,296 @@
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+}
+
+body {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.5;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+img {
+    width: 100%;
+}
+
+.--text-heading {
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5rem;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    /* text-align: center; */
+}
+
+.--text-title {
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.--text-subtitle {
+    font-family: "montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.--text-body {
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.--text-caption {
+    font-family: "open-sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--background-color);
+}
+
+.menu {
+    width: 100%;
+    max-width: var(--max-width);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: "open-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.nav {
+    font-family: "open-sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav a {
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: var(--accent-color);
+}
+
+.container {
+    width: var(--max-width);
+    margin: 0 auto;
+}
+
+.section-hero {
+    height: var(--doc-height);
+    background: url('/content/home/dgt-hero.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section--intro {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.section--intro .container {
+    min-height: calc(var(--doc-height) / 2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section--split .container {
+    min-height: var(--doc-height);
+    display: flex;
+}
+
+.section-title {
+    margin-bottom: 2rem;
+}
+
+.section-col {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-col--left {
+    padding-right: 2.5rem;
+    border-right: 1px solid var(--primary-color);
+}
+
+.section-col--right {
+    padding-left: 2.5rem;
+}
+
+.section-col--image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-subtitle {
+    margin-bottom: 1.5rem;
+}
+
+.section-text {
+    margin-bottom: 2.5rem;
+}
+
+.section-img {
+    max-width: 100%;
+    max-height: 70vh;
+    object-fit: contain;
+}
+
+.section--block {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.section--block .container {
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.section-grid-item {
+    grid-column: span 2;
+}
+
+/* .section-grid-item h3,
+.section-grid-item p {
+    color: var(--secondary-color);
+} */
+
+.section-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.section-grid img:nth-child(even) {
+    margin-top: 4rem;
+}
+
+/* .section-cover {
+    position: sticky;
+    top: 80px;
+} */
+
+.btn {
+    display: inline-block;
+    font-family: "montserrat", sans-serif;
+    font-size: .75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+    align-self: flex-start;
+}
+
+.btn--outline {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: transparent;
+}
+
+.btn--outline:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.footer {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+.footer-section {
+    padding: 2rem 0;
+}
+
+.footer-section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer-section:last-of-type {
+    border-top: 1px solid var(--primary-color);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.footer-item {
+    color: var(--primary-color);
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer-item a {
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}
+
+.footer-item a:hover {
+    color: var(--accent-color);
+}
+
+.footer-item svg {
+    width: 16px;
+    height: 16px;
+    fill: var(--primary-color);
+}
