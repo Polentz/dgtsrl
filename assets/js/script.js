@@ -5,6 +5,21 @@ const documentHeight = () => {
   doc.style.setProperty("--doc-height", `${window.innerHeight}px`);
 };
 
+const anchorTags = () => {
+  const links = document.querySelectorAll("a.nav-button");
+  if (!links.length) return;
+
+  links.forEach(link => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      const href = link.getAttribute("href");
+      document.querySelector(href).scrollIntoView({
+        behavior: "smooth"
+      });
+    });
+  });
+};
+
 const initScrollAnimations = () => {
   const elements = document.querySelectorAll(".section h1, .section h2, .section h3, .section p, .section img, .section button");
   if (!elements.length) return;
@@ -36,6 +51,7 @@ const initScrollAnimations = () => {
 
 window.addEventListener("load", () => {
   documentHeight();
+  anchorTags();
   initScrollAnimations();
 });
 

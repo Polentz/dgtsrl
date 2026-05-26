@@ -1,6 +1,6 @@
 <section class="section --light-theme">
     <div class="container">
-        <h2 class="section-heading --text-heading">Contattaci</h2>
+        <h2 class="section-heading --text-heading --span-1-5">Contattaci</h2>
     </div>
 </section>
 

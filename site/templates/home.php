@@ -70,11 +70,11 @@
 <section id="servizi" class="section --light-theme">
     <div class="container">
         <h2 class="section-heading --text-heading --span-1-5">Tecnologia in scatola <br>e servizi su misura</h2>
-        <div class="section-col --span-1"><img src="/content/home/graphics-ufficio tecnico.png" alt=""></div>
-        <div class="section-col --span-1"><img src="/content/home/graphics-rete.png" alt=""></div>
-        <div class="section-col --span-1"><img src="/content/home/graphics-spedizioni.png" alt=""></div>
-        <div class="section-col --span-1"><img src="/content/home/graphics-certificazioni.png" alt=""></div>
-        <div class="section-col --span-1-3">
+        <img class="--span-1" src="/content/home/graphics-ufficio tecnico.png" alt="">
+        <img class="--span-1" src="/content/home/graphics-rete.png" alt="">
+        <img class="--span-1" src="/content/home/graphics-spedizioni.png" alt="">
+        <img class="--span-1" src="/content/home/graphics-certificazioni.png" alt="">
+        <div class="section-block --span-1-3">
             <p class="section-subtitle --text-subtitle">Ufficio tecnico</p>
             <p class="section-text --text-body">Accompagnamo i nostri clienti nella scelta delle soluzioni
                 migliori
@@ -83,8 +83,7 @@
                 tecniche nelle fasi di sviluppo, progettazione e post-vendita dei nostri prodotti e progetti.
             </p>
         </div>
-
-        <div class="section-col --span-3-5">
+        <div class="section-block --span-3-5">
             <p class="section-subtitle --text-subtitle">Spedizioni sicure</p>
             <p class="section-text --text-body">Nessuno ha tempo da perdere! Spedizioni sicure e tracciate,
                 efficienza
@@ -92,8 +91,7 @@
                 questi gli ingredienti che ci hanno permesso di spedire ai nostri clienti in Europa e nel mondo.
             </p>
         </div>
-
-        <div class="section-col --span-1-3">
+        <div class="section-block --span-1-3">
             <p class="section-subtitle --text-subtitle">Rete commerciale</p>
             <p class="section-text --text-body">Ci affidiamo a una squadra di agenti esperti sia in campo
                 tecnico
@@ -103,7 +101,7 @@
             </p>
         </div>
 
-        <div class="section-col --span-3-5">
+        <div class="section-block --span-3-5">
             <p class="section-subtitle --text-subtitle">Certificazioni</p>
             <p class="section-text --text-body">Innovazione e sicurezza sono sinonimi di consapevolezza e
                 responsabilità. Per questo motivo vogliamo che le tue finestre durino nel tempo e proponiamo
@@ -122,14 +120,16 @@
             e serramentisti che lavorano il legno e il legno-alluminio.</h3>
     </div>
     <div class="container">
-        <div class="section-col --span-1-3 --row-1">
+        <div class="section-block --span-1-3">
             <p class="section-text --text-body">Ogni soluzione nasce per rispondere alle sfide più esigenti del
                 settore e alle esigenze concrete di chi lavora ogni giorno con il legno e il legno-alluminio,
                 puntando sempre a prestazioni di alto livello.</p>
             <p class="section-text --text-body">Pensiamo oltre e guardiamo lontano, mettendo nelle mani dei
                 nostri clienti gli strumenti giusti per lavorare meglio e innovarsi continuamente.</p>
         </div>
-        <div class="section-col --span-3-5 --row-2">
+    </div>
+    <div class="container">
+        <div class="section-block --span-3-5">
             <p class="section-text --text-body">Giovane e dinamica, ma radicata nella sua storia, DGT Srl può
                 contare su una squadra di veri professionisti del settore. L'esperienza e la profonda conoscenza
                 del
@@ -138,9 +138,12 @@
                 sguardo orientato al futuro e alla crescita.</p>
             <p class="section-text --text-body">DGT Srl è prima di tutto una famiglia fatta di persone con
                 competenze diverse e specializzate, unite sotto lo stesso tetto per far crescere nuove idee, con
-                uno
-                sguardo a 360 gradi intorno alla tua finestra.</p>
+                uno sguardo a 360 gradi intorno alla tua finestra.</p>
         </div>
+        <video class="section-cover --span-1-5" autoplay muted loop>
+            <source src="/content/home/dgt-teaser.mp4" type="video/mp4">
+            Il tuo browser non supporta il tag video.
+        </video>
     </div>
 </section>
 

@@ -4,10 +4,10 @@ html {
     scroll-padding-top: 4rem;
 }
 
-img {
+img,
+video {
     width: 100%;
 }
-
 
 .--dark-theme {
     background-color: var(--background-color);
@@ -23,7 +23,7 @@ img {
     font-family: "montserrat", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 1;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -100,12 +100,8 @@ img {
     grid-column: 3 / 5;
 }
 
-.--row-1 {
-    grid-row: 1 / 2;
-}
-
-.--row-2 {
-    grid-row: 2 / 3;
+img.--span-1:nth-child(odd) {
+    margin-top: 4rem;
 }
 
 .header {
@@ -164,6 +160,20 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.section-hero .container {
+    height: auto;
+    position: sticky;
+    top: 8rem;
+    text-align: center;
+}
+
+.section-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .section-col {
