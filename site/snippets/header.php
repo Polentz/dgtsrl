@@ -11,28 +11,28 @@ $navigation = $site->children()->listed();
             </a>
         </h1>
         <nav class="nav">
-            <a href="#legno-alluminio" class="button" type="button">
-                <span class="text-label">
+            <a href="#legno-alluminio" class="nav-button" type="button">
+                <span class="--text-button">
                     Legno-alluminio
                 </span>
             </a>
-            <a href="#accessori" class="button" type="button">
-                <span class="text-label">
+            <a href="#accessori" class="nav-button" type="button">
+                <span class="--text-button">
                     Accessori
                 </span>
             </a>
-            <a href="#servizi" class="button" type="button">
-                <span class="text-label">
+            <a href="#servizi" class="nav-button" type="button">
+                <span class="--text-button">
                     Servizi
                 </span>
             </a>
-            <a href="#azienda" class="button" type="button">
-                <span class="text-label">
+            <a href="#azienda" class="nav-button" type="button">
+                <span class="--text-button">
                     Azienda
                 </span>
             </a>
-            <a href="#contatti" class="button" type="button">
-                <span class="text-label">
+            <a href="#contatti" class="nav-button" type="button">
+                <span class="--text-button">
                     Contatti
                 </span>
             </a>
