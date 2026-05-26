@@ -29,19 +29,25 @@
 
 <section id="legno-alluminio" class="section section--split">
     <div class="container">
-        <div class="section-col section-col--content section-col--left">
-            <h3 class="section-title --text-title">Alumframe: il calore del legno e la protezione dell'alluminio</h3>
-            <p class="section-subtitle --text-subtitle">Alumfast, Easy Slim, Grace, Canvas, Bridge, Orizon e Luce sono i
-                sistemi
-                legno-alluminio della famiglia Alumframe. Linee moderne e un sistema di montaggio rapido senza rischi.
-            </p>
-            <p class="section-text --text-body">Dal 2016, DGT Srl è anche Alumframe, una linea di profili in
-                legno-alluminio progettati per portare uno stile contemporaneo e di design all'interno della tradizione
-                degli infissi e dei serramenti in legno.</p>
-            <a href="/alumframe" class="btn btn--outline">Scopri il legno-alluminio</a>
-        </div>
-        <div class="section-col section-col--image section-col--right">
-            <img src="/content/home/graphics-alumframe.png" alt="Profilo Alumframe legno-alluminio">
+        <div class="flexbox-wrapper">
+            <div class="section-col section-col--content section-col--left">
+                <h3 class="section-title --text-title">Alumframe: il calore del legno e la protezione dell'alluminio
+                </h3>
+                <p class="section-subtitle --text-subtitle">Alumfast, Easy Slim, Grace, Canvas, Bridge, Orizon e Luce
+                    sono i
+                    sistemi
+                    legno-alluminio della famiglia Alumframe. Linee moderne e un sistema di montaggio rapido senza
+                    rischi.
+                </p>
+                <p class="section-text --text-body">Dal 2016, DGT Srl è anche Alumframe, una linea di profili in
+                    legno-alluminio progettati per portare uno stile contemporaneo e di design all'interno della
+                    tradizione
+                    degli infissi e dei serramenti in legno.</p>
+                <button class="button button--outline"><a href="/alumframe">Scopri il legno-alluminio</a></button>
+            </div>
+            <div class="section-col section-col--image section-col--right">
+                <img src="/content/home/graphics-alumframe.png" alt="Profilo Alumframe legno-alluminio">
+            </div>
         </div>
     </div>
 </section>
@@ -60,14 +66,8 @@
                 finestre e porte
                 conformi alla marcatura CE. Sono prodotti testati e rispondenti ad alti standard qualitativi e di
                 sicurezza, con l'ulteriore garanzia del Made in Italy.</p>
-            <a href="/alumframe" class="btn btn--outline">Scopri gli accessori</a>
+            <button class="button button--outline"><a href="/alumframe">Scopri gli accessori</a></button>
         </div>
-    </div>
-</section>
-
-<section class="section section--block">
-    <div class="container">
-
     </div>
 </section>
 

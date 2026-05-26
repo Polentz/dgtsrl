@@ -163,3 +163,22 @@ button,
 input {
     outline: 0;
 }
+
+button {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    user-select: none;
+    -webkit-user-select: none;
+}

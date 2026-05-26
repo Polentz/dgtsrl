@@ -66,6 +66,7 @@ img {
     left: 50%;
     transform: translateX(-50%);
     background-color: var(--background-color);
+    z-index: 1000;
 }
 
 .menu {
@@ -107,8 +108,15 @@ img {
     color: var(--accent-color);
 }
 
+/* .section {
+    padding: 4rem 0;
+} */
+
 .container {
     width: var(--max-width);
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
     margin: 0 auto;
 }
 
@@ -122,23 +130,23 @@ img {
 }
 
 .section--intro {
+    padding: 4rem 0;
     border-bottom: 1px solid var(--primary-color);
 }
 
-.section--intro .container {
+/* .section--intro .container {
     min-height: calc(var(--doc-height) / 2);
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
 
-.section--split .container {
-    min-height: var(--doc-height);
-    display: flex;
-}
-
-.section-title {
+/* .section-title {
     margin-bottom: 2rem;
+} */
+
+.flexbox-wrapper {
+    display: flex;
 }
 
 .section-col {
@@ -150,7 +158,24 @@ img {
 
 .section-col--left {
     padding-right: 2.5rem;
-    border-right: 1px solid var(--primary-color);
+    position: relative;
+}
+
+.section-col--left::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color: var(--primary-color);
+    transform: scaleY(0);
+    transform-origin: top center;
+    transition: transform 1s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.section-col--left.is-visible::after {
+    transform: scaleY(1);
 }
 
 .section-col--right {
@@ -158,18 +183,24 @@ img {
 }
 
 .section-col--image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
-.section-subtitle {
+.section-col--image img {
+    height: 50vh;
+    max-height: 50vh;
+    object-fit: contain;
+}
+
+/* .section-subtitle {
     margin-bottom: 1.5rem;
-}
+} */
 
-.section-text {
+/* .section-text {
     margin-bottom: 2.5rem;
-}
+} */
 
 .section-img {
     max-width: 100%;
@@ -219,7 +250,7 @@ img {
     top: 80px;
 } */
 
-.btn {
+.button {
     display: inline-block;
     font-family: "montserrat", sans-serif;
     font-size: .75rem;
@@ -231,13 +262,13 @@ img {
     align-self: flex-start;
 }
 
-.btn--outline {
+.button--outline {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     background-color: transparent;
 }
 
-.btn--outline:hover {
+.button--outline:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color);
 }
