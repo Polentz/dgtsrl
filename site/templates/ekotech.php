@@ -9,8 +9,9 @@
         <h2 class="section-heading --span-1-5 --text-heading">Ekotech: rivoluzione ecologica</h2>
         <div class="section-block --span-1-5">
             <h3 class="section-title --text-title">La nuova finestra minimale con il nodo totale ridotto a 70mm:
-                moderna ed ecosostenibile.</h3>
-            <p class="section-text --text-body" style="text-align: center;">Ekotech è un prodotto brevettato da DGT srl.
+                moderna ed ecosostenibile</h3>
+            <p class="section-subtitle --text-subtitle" style="text-align: center;">Ekotech è un prodotto brevettato da
+                DGT Srl
             </p>
         </div>
     </div>
@@ -63,7 +64,7 @@
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Pensare circolare</h3>
             <p class="section-subtitle --text-subtitle">Legno, Resysta® e alluminio Alumframe.</p>
-            <p class="section-block --text-body">Dall'unione di questi tre materiali nasce Ekotech, il nuovo concept di
+            <p class="section-text --text-body">Dall'unione di questi tre materiali nasce Ekotech, il nuovo concept di
                 serramento ecologico e minimale, realizzato con il telaio a base di buccia di riso.</p>
             <ul class="section-custom-list --text-body">
                 <li><svg viewBox="0 0 267 347" fill="none" xmlns="http://www.w3.org/2000/svg">
