@@ -6,10 +6,7 @@ Cover: - file://ibyxqk4u5f6orepk
 
 ----
 
-Gallery:
-
-- file://ibyxqk4u5f6orepk
-- file://bal36unzrguj7shr
+Gallery: - file://bal36unzrguj7shr
 
 ----
 

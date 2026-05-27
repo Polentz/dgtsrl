@@ -11,36 +11,12 @@ $navigation = $site->children()->listed();
             </a>
         </h1>
         <nav class="nav">
-            <a href="#ekotech" class="nav-button" type="button">
-                <span class="--text-button">
-                    Ekotech
-                </span>
-            </a>
-            <a href="#legno-alluminio" class="nav-button" type="button">
-                <span class="--text-button">
-                    Legno-alluminio
-                </span>
-            </a>
-            <a href="#accessori" class="nav-button" type="button">
-                <span class="--text-button">
-                    Accessori
-                </span>
-            </a>
-            <a href="#servizi" class="nav-button" type="button">
-                <span class="--text-button">
-                    Servizi
-                </span>
-            </a>
-            <a href="#azienda" class="nav-button" type="button">
-                <span class="--text-button">
-                    Azienda
-                </span>
-            </a>
-            <a href="#contatti" class="nav-button" type="button">
-                <span class="--text-button">
-                    Contatti
-                </span>
-            </a>
+            <a href="#ekotech" class="nav-button" type="button">Ekotech</a>
+            <a href="#legno-alluminio" class="nav-button" type="button">Legno-alluminio</a>
+            <a href="#accessori" class="nav-button" type="button">Accessori</a>
+            <a href="#servizi" class="nav-button" type="button">Servizi</a>
+            <a href="#azienda" class="nav-button" type="button">Azienda</a>
+            <a href="#contatti" class="nav-button" type="button">Contatti</a>
         </nav>
     </menu>
 </header>

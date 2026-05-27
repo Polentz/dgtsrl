@@ -29,7 +29,7 @@
 <section class="section --dark-theme">
     <div id="ekotech" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="/content/home/ekotech-colori.png" alt="Profilo guarnizioni">
+            <img src="/content/home/ekotech-colori.png" alt="Profili Ekotech in diverse colorazioni">
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Ekotech: più spazio alla luce</h3>
@@ -38,8 +38,8 @@
             <p class="section-text --text-body">Legno, Resysta® e alluminio Alumframe:
                 dall'unione di questi tre materiali nasce Ekotech, il nuovo concept di serramento ecologico e minimale,
                 realizzato con il telaio a base di buccia di riso.</p>
-            <button class="button button--outline"><a href="/alumframe" class="--text-button">Scopri
-                    Ekotech</a></button>
+            <a class="button button--outline" aria-label="Scopri Ekotech" type="button" href="/alumframe">Scopri
+                Ekotech</a>
         </div>
     </div>
     <div id="legno-alluminio" class="container">
@@ -56,8 +56,8 @@
                 legno-alluminio progettati per portare uno stile contemporaneo e di design all'interno della
                 tradizione
                 degli infissi e dei serramenti in legno.</p>
-            <button class="button button--outline"><a href="/alumframe" class="--text-button">Scopri il
-                    legno-alluminio</a></button>
+            <a class="button button--outline" aria-label="Scopri il legno-alluminio" type="button"
+                href="/alumframe">Scopri il legno-alluminio</a>
         </div>
         <div class="section-col section-col--image section-col--right --span-3-5">
             <img src="/content/home/graphics-alumframe.png" alt="Profilo Alumframe legno-alluminio">
@@ -65,7 +65,8 @@
     </div>
     <div id="accessori" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="/content/home/graphics-accessori.png" alt="Profilo guarnizioni">
+            <img src="/content/home/graphics-accessori.png"
+                alt="Accessori per finestre, guarnizioni, soglie e gocciolatoi">
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Accessori per finestre sicure e certificate</h3>
@@ -77,8 +78,8 @@
                 finestre e porte
                 conformi alla marcatura CE. Sono prodotti testati e rispondenti ad alti standard qualitativi e di
                 sicurezza, con l'ulteriore garanzia del Made in Italy.</p>
-            <button class="button button--outline"><a href="/alumframe" class="--text-button">Scopri gli
-                    accessori</a></button>
+            <a class="button button--outline" aria-label="Scopri gli accessori" type="button" href="/alumframe">Scopri
+                gli accessori</a>
         </div>
     </div>
 </section>
@@ -86,10 +87,10 @@
 <section id="servizi" class="section --light-theme">
     <div class="container">
         <h2 class="section-heading --text-heading --span-1-5">Tecnologia in scatola <br>e servizi su misura</h2>
-        <img class="--span-1" src="/content/home/graphics-ufficio tecnico.png" alt="">
-        <img class="--span-1" src="/content/home/graphics-rete.png" alt="">
-        <img class="--span-1" src="/content/home/graphics-spedizioni.png" alt="">
-        <img class="--span-1" src="/content/home/graphics-certificazioni.png" alt="">
+        <img class="--span-1" src="/content/home/graphics-ufficio tecnico.png" alt="Simbolo ufficio tecnico">
+        <img class="--span-1" src="/content/home/graphics-rete.png" alt="Simbolo rete commerciale">
+        <img class="--span-1" src="/content/home/graphics-spedizioni.png" alt="Simbolo spedizioni">
+        <img class="--span-1" src="/content/home/graphics-certificazioni.png" alt="Simbolo certificazioni">
         <div class="section-block --span-1-3">
             <p class="section-subtitle --text-subtitle">Ufficio tecnico</p>
             <p class="section-text --text-body">Accompagnamo i nostri clienti nella scelta delle soluzioni
@@ -123,7 +124,8 @@
                 prodotti affidabili e testati, conformi alla marcatura CE in linea con le direttive europee in
                 materia.</p>
         </div>
-        <img class="section-cover --span-1-5" src="/content/home/graphics-boxes.png" alt="">
+        <img class="section-cover --span-1-5" src="/content/home/graphics-boxes.png"
+            alt="Disegno vettoriale di alcune scatole da spedizione">
     </div>
     </div>
 </section>

@@ -12,10 +12,10 @@ const anchorTags = () => {
     if (href.startsWith("#")) {
       link.addEventListener("click", (event) => {
         event.preventDefault();
-
-        document.querySelector(href).scrollIntoView({
-          behavior: "smooth"
-        });
+        const target = document.querySelector(href);
+        const offset = parseFloat(getComputedStyle(document.documentElement).fontSize) * 10;
+        const top = target.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({ top, behavior: "smooth" });
       });
     } else {
       return;
@@ -24,15 +24,16 @@ const anchorTags = () => {
 };
 
 const initScrollAnimations = () => {
-  const elements = document.querySelectorAll(".section h1, .section h2, .section h3, .section p, .section img, .section figcaption, .section button, .section li");
+  const elements = document.querySelectorAll(".section h1, .section h2, .section h3, .section p, .section a, .section img, .section button, .section li");
   if (!elements.length) return;
 
-  document.querySelectorAll(".section-col--left").forEach((col) => {
+  document.querySelectorAll(".section:has(.section-col)").forEach((col) => {
     ScrollTrigger.create({
       trigger: col,
       start: "top 80%",
       toggleActions: "play none none none",
       onEnter: () => col.classList.add("is-visible"),
+      onLeaveBack: () => col.classList.remove("is-visible"),
     });
   });
 

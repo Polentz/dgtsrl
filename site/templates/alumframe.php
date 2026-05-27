@@ -28,7 +28,7 @@
 <section class="section --dark-theme">
     <div id="symbio" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="/content/alumframe/symbio.jpg" alt="Profilo guarnizioni">
+            <img src="/content/alumframe/symbio.jpg" alt="Render del sistema Symbio">
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Symbio: l'armonia nasce dal contrasto</h3>
@@ -42,8 +42,8 @@
                 <li>Semolificazione nella produzione e riduzione dei costi.</li>
                 <li>Alta personalizzazione dell'infisso: il bicolore non è mai stato così facile da realizzare.</li>
             </ul>
-            <button class=" button button--outline"><a href="/alumframe" class="--text-button">Scarica la
-                    brochure</a></button>
+            <a class="button button--outline" aria-label="Scarica la brochure" type="button" href="/alumframe">Scarica
+                la brochure</a>
         </div>
     </div>
     <div id="alumfast" class="container">
@@ -59,16 +59,16 @@
                 <li>Sostituzione immediata in caso di danni.</li>
                 <li>Software per la preventivazione in tempo reale.</li>
             </ul>
-            <button class=" button button--outline"><a href="#kit" class="--text-button">Guarda il
-                    video</a></button>
+            <a class="button button--outline" aria-label="Guarda il video" type="button" href="#kit">Guarda il
+                video</a>
         </div>
         <div class="section-col section-col--image section-col--right --span-3-5">
-            <img src="/content/alumframe/alumfast.png" alt="Profilo guarnizioni">
+            <img src="/content/alumframe/alumfast.png" alt="Profilo Alumfast">
         </div>
     </div>
     <div id="finiture" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="/content/alumframe/alumframe-finiture.jpg" alt="Palette delle colorazioni">
+            <img src="/content/alumframe/alumframe-finiture.jpg" alt="Fotografia della palette delle colorazioni">
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Ampia gamma di finiture</h3>
@@ -103,8 +103,8 @@
         <div class="banner --span-1-5">
             <h3 class="banner-title --text-title">Scarica il catalogo completo dei sistemi legno-alluminio Alumframe
             </h3>
-            <a href="/content/catalogo-alumframe.pdf" target="_blank"
-                class="button button--outline --text-button">Scarica il catalogo</a>
+            <a class="button button--outline" aria-label="Scarica il catalogo" type="button"
+                href="/content/catalogo-alumframe.pdf" target="_blank">Scarica il catalogo</a>
         </div>
     </div>
 </section>

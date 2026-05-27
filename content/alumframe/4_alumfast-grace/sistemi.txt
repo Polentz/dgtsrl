@@ -8,7 +8,6 @@ Cover: - file://afze3h03s1e1c7rj
 
 Gallery:
 
-- file://afze3h03s1e1c7rj
 - file://hwvify7zut2vgyjx
 - file://5gtpvlrytbxkc2du
 

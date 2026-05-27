@@ -1,0 +1,14 @@
+title: Files
+focus: true
+
+fields:
+  title:
+    label: Titolo
+    type: text
+  span:
+    label: Span
+    type: number
+    range: 1-3
+  alt:
+    label: Testo alternativo
+    type: text

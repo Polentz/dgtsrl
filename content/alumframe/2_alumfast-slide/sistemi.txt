@@ -8,7 +8,6 @@ Cover: - file://ugkiade94cfoqyyn
 
 Gallery:
 
-- file://ugkiade94cfoqyyn
 - file://vbl52kdyy5bdrwgr
 - file://icauduoywpa7xawz
 - file://reyqxfxp3csuqyuo

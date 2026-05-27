@@ -6,7 +6,7 @@ Cover: - file://dwb3zigzpddyej8l
 
 ----
 
-Gallery: - file://dwb3zigzpddyej8l
+Gallery: 
 
 ----
 

@@ -7,6 +7,8 @@ html {
 img,
 video {
     width: 100%;
+    position: relative;
+    z-index: 9;
 }
 
 video {
@@ -67,7 +69,7 @@ video {
 }
 
 .--text-caption,
-.--text-button {
+.button {
     font-family: "open-sans", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -77,12 +79,32 @@ video {
 }
 
 .section {
+    position: relative;
     padding-top: 4rem;
     padding-bottom: 4rem;
+    display: grid;
+    row-gap: 6rem;
 }
 
 .section:first-of-type {
     padding-top: 10rem;
+}
+
+.section:has(.section-col)::after {
+    content: "";
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background-color: var(--primary-color);
+    transform: scaleY(0);
+    transform-origin: top center;
+    transition: transform 1s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.section:has(.section-col).is-visible::after {
+    transform: scaleY(1);
 }
 
 .container {
@@ -95,6 +117,7 @@ video {
 }
 
 .gallery {
+    min-width: var(--max-width);
     max-width: var(--max-width);
     margin: 0 auto;
     display: grid;
@@ -179,9 +202,10 @@ img.--span-1:nth-child(odd) {
 .button {
     width: max-content;
     display: inline-block;
+    text-align: center;
+    text-decoration: none;
     padding: 0.5rem 1rem;
     transition: background-color 0.3s ease, color 0.3s ease;
-    text-decoration: none;
 }
 
 .button--outline {
@@ -190,9 +214,18 @@ img.--span-1:nth-child(odd) {
     background-color: transparent;
 }
 
-.button--outline:hover {
+.button--outline:hover,
+.button.--current {
     background-color: var(--secondary-color);
     color: var(--primary-color);
+}
+
+.button.--current {
+    cursor: default;
+}
+
+.gallery .button {
+    width: auto;
 }
 
 .address,
@@ -261,12 +294,12 @@ img.--span-1:nth-child(odd) {
     padding-top: 0;
 }
 
-.section-hero .container {
+/* .section-hero .container {
     height: auto;
     position: sticky;
     top: 8rem;
     text-align: center;
-}
+} */
 
 .section-list {
     list-style: inside;
@@ -288,19 +321,18 @@ img.--span-1:nth-child(odd) {
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 2rem;
 }
 
 .section-col--right {
-    padding-left: 3rem;
+    padding-left: 2rem;
 }
 
 .section-col--left {
-    padding-right: 3rem;
+    padding-right: 2rem;
 }
 
-.section-col--left::after {
+/* .section-col--left::after {
     content: "";
     position: absolute;
     top: 0;
@@ -315,18 +347,20 @@ img.--span-1:nth-child(odd) {
 
 .section-col--left.is-visible::after {
     transform: scaleY(1);
-}
+} */
 
-.section-col--image {
+/* .section-col--image {
     padding-top: 4rem;
     padding-bottom: 4rem;
-}
+} */
 
-.section-col--image img {
+/* .section-col--image img {
     height: 50vh;
     max-height: 50vh;
     object-fit: contain;
-}
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+} */
 
 .banner {
     display: flex;

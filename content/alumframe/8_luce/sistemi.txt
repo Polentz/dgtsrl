@@ -6,10 +6,7 @@ Cover: - file://zw6on5k85kavmvex
 
 ----
 
-Gallery:
-
-- file://zw6on5k85kavmvex
-- file://u75kzdod9fbltfn3
+Gallery: - file://u75kzdod9fbltfn3
 
 ----
 

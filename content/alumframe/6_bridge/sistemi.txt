@@ -8,7 +8,6 @@ Cover: - file://k9huzpqkn5nbra41
 
 Gallery:
 
-- file://k9huzpqkn5nbra41
 - file://lstpxpswa2xqtiem
 - file://udg968u48pgz2chy
 

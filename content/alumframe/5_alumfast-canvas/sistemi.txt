@@ -8,7 +8,6 @@ Cover: - file://dirbryfodcwdpscn
 
 Gallery:
 
-- file://dirbryfodcwdpscn
 - file://saxiiolul59bahed
 - file://f9ys0herr8dmctjy
 - file://rd9fqv2ofwdppbcu

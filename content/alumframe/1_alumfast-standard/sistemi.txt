@@ -8,7 +8,6 @@ Cover: - file://ttxh5igzlus9tj7x
 
 Gallery:
 
-- file://ttxh5igzlus9tj7x
 - file://fscqfbpfui8lo1yg
 - file://fukqtf81mmwp7yw2
 - file://ouagbwbwpkn3nqao
