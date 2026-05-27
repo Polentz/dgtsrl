@@ -12,20 +12,36 @@
 
 <section class="section --dark-theme">
     <div class="container">
-        <h3 class="section-title --span-1-5 --text-title">
-            DGT Srl lavora al fianco di falegnami e serramentisti con idee e soluzioni intorno alla tua finestra in
-            legno e legno-alluminio.
-        </h3>
-
-        <p class="section-text --span-2-4 --text-body">Progettiamo e produciamo sistemi completi per la lavorazione
-            del
-            legno: dalla progettazione di sistemi legno-alluminio, alla produzione di guarnizioni, fino alla
-            fornitura di soglie, gocciolatoi e accessori tecnici di qualità.</p>
-
+        <div class="section-block --span-1-5">
+            <h3 class="section-title --text-title">
+                DGT Srl lavora al fianco di falegnami e serramentisti con idee e soluzioni intorno alla tua finestra in
+                legno e legno-alluminio.
+            </h3>
+        </div>
+        <div class="section-block --span-2-4">
+            <p class="section-text  --text-body">Progettiamo e produciamo sistemi completi per la lavorazione
+                del serramento: dalla progettazione di sistemi legno-alluminio, alla produzione di guarnizioni, fino
+                alla fornitura di soglie, gocciolatoi e accessori tecnici di qualità.</p>
+        </div>
     </div>
 </section>
 
 <section class="section --dark-theme">
+    <div id="ekotech" class="container">
+        <div class="section-col section-col--image section-col--left --span-1-3">
+            <img src="/content/home/ekotech-colori.png" alt="Profilo guarnizioni">
+        </div>
+        <div class="section-col section-col--content section-col--right --span-3-5">
+            <h3 class="section-title --text-title">Ekotech: più spazio alla luce</h3>
+            <p class="section-subtitle --text-subtitle">La nuova finestra minimale con il nodo totale ridotto a 70 mm:
+                moderna ed ecosostenibile. Ekotech è un prodotto brevettato da DGT srl.</p>
+            <p class="section-text --text-body">Legno, Resysta® e alluminio Alumframe:
+                dall'unione di questi tre materiali nasce Ekotech, il nuovo concept di serramento ecologico e minimale,
+                realizzato con il telaio a base di buccia di riso.</p>
+            <button class="button button--outline"><a href="/alumframe" class="--text-button">Scopri
+                    Ekotech</a></button>
+        </div>
+    </div>
     <div id="legno-alluminio" class="container">
         <div class="section-col section-col--content section-col--left --span-1-3">
             <h3 class="section-title --text-title">Alumframe: il calore del legno e la protezione dell'alluminio
@@ -100,7 +116,6 @@
                 contatti diretti tra noi e i nostri clienti. Contattaci per conoscere l'agente più vicino a te.
             </p>
         </div>
-
         <div class="section-block --span-3-5">
             <p class="section-subtitle --text-subtitle">Certificazioni</p>
             <p class="section-text --text-body">Innovazione e sicurezza sono sinonimi di consapevolezza e
@@ -115,27 +130,17 @@
 
 <section id="azienda" class="section --light-theme">
     <div class="container">
-        <h2 class="section-heading --text-heading --span-1-5">Abbiamo gli strumenti</h2>
-        <h3 class="section-title --text-title --span-1-5">DGT Srl è il partner di riferimento per falegnami
-            e serramentisti che lavorano il legno e il legno-alluminio.</h3>
-    </div>
-    <div class="container">
-        <div class="section-block --span-1-3">
-            <p class="section-text --text-body">Ogni soluzione nasce per rispondere alle sfide più esigenti del
-                settore e alle esigenze concrete di chi lavora ogni giorno con il legno e il legno-alluminio,
-                puntando sempre a prestazioni di alto livello.</p>
-            <p class="section-text --text-body">Pensiamo oltre e guardiamo lontano, mettendo nelle mani dei
-                nostri clienti gli strumenti giusti per lavorare meglio e innovarsi continuamente.</p>
+        <h2 class="section-heading --text-heading --span-1-5">la nostra azienda</h2>
+        <div class="section-block --span-1-5">
+            <h3 class="section-title --text-title ">
+                Pensare oltre, guardare lontano, con in mano i giusti strumenti per innovarsi continuamente.
+            </h3>
         </div>
-    </div>
-    <div class="container">
-        <div class="section-block --span-3-5">
+        <div class="section-block --span-2-4">
             <p class="section-text --text-body">Giovane e dinamica, ma radicata nella sua storia, DGT Srl può
                 contare su una squadra di veri professionisti del settore. L'esperienza e la profonda conoscenza
-                del
-                mondo degli infissi e dei serramenti guidano l'azienda verso soluzioni al passo con i tempi, con
-                lo
-                sguardo orientato al futuro e alla crescita.</p>
+                del mondo degli infissi e dei serramenti guidano l'azienda verso soluzioni al passo con i tempi, con
+                lo sguardo orientato al futuro e alla crescita.</p>
             <p class="section-text --text-body">DGT Srl è prima di tutto una famiglia fatta di persone con
                 competenze diverse e specializzate, unite sotto lo stesso tetto per far crescere nuove idee, con
                 uno sguardo a 360 gradi intorno alla tua finestra.</p>

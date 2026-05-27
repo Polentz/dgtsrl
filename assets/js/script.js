@@ -6,22 +6,25 @@ const documentHeight = () => {
 };
 
 const anchorTags = () => {
-  const links = document.querySelectorAll("a.nav-button");
-  if (!links.length) return;
-
+  const links = document.querySelectorAll("a");
   links.forEach(link => {
-    link.addEventListener("click", (event) => {
-      event.preventDefault();
-      const href = link.getAttribute("href");
-      document.querySelector(href).scrollIntoView({
-        behavior: "smooth"
+    const href = link.getAttribute("href");
+    if (href.startsWith("#")) {
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+
+        document.querySelector(href).scrollIntoView({
+          behavior: "smooth"
+        });
       });
-    });
+    } else {
+      return;
+    };
   });
 };
 
 const initScrollAnimations = () => {
-  const elements = document.querySelectorAll(".section h1, .section h2, .section h3, .section p, .section img, .section button");
+  const elements = document.querySelectorAll(".section h1, .section h2, .section h3, .section p, .section img, .section figcaption, .section button, .section li");
   if (!elements.length) return;
 
   document.querySelectorAll(".section-col--left").forEach((col) => {

@@ -11,6 +11,11 @@ $navigation = $site->children()->listed();
             </a>
         </h1>
         <nav class="nav">
+            <a href="#ekotech" class="nav-button" type="button">
+                <span class="--text-button">
+                    Ekotech
+                </span>
+            </a>
             <a href="#legno-alluminio" class="nav-button" type="button">
                 <span class="--text-button">
                     Legno-alluminio

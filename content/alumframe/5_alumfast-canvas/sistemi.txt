@@ -1,0 +1,34 @@
+Title: Alumfast Canvas
+
+----
+
+Cover: - file://dirbryfodcwdpscn
+
+----
+
+Gallery:
+
+- file://dirbryfodcwdpscn
+- file://saxiiolul59bahed
+- file://f9ys0herr8dmctjy
+- file://rd9fqv2ofwdppbcu
+
+----
+
+Maintitle: <p>ALUMFAST CANVAS:<br>MASSIMA SUPERFICIE VETRATA</p>
+
+----
+
+Subtitle: 
+
+----
+
+Description: <p>Un nuovo modello di finestra all’avanguardia, con spessori 80, 92 e 102 mm per un nodo complessivo dell’infisso che scende fino a 82 mm. In condizioni di posa a filo muro si permette di lasciare il massimo spazio possibile alla superficie vetrata.</p><p>Il sistema è disponibile anche nella versione Orizon, per una complanarità sia esterna che interna.</p><p>Come ogni altro prodotto Alumfast, anche Canvas è coperto da Cascading Freud.</p>
+
+----
+
+Text: 
+
+----
+
+Uuid: k1gfl2xzthy6gwx2

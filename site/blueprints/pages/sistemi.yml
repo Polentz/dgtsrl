@@ -1,0 +1,29 @@
+title: Prodotto
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      media:
+        type: fields
+        fields:
+          cover:
+            type: files
+          gallery:
+            type: files
+  sidebar:
+    width: 1/3
+    sections:
+      text:
+        type: fields
+        fields:
+          maintitle:
+            type: writer
+            nodes: false  
+          subtitle:
+            type: writer
+            nodes: false  
+          description:
+            type: writer
+            nodes: false  
+
