@@ -28,7 +28,15 @@ video {
 .--alumframe-theme {
     background-color: var(--alumframe-color);
     color: var(--primary-color);
-    border-bottom: 1px solid var(--primary-color);
+    /* border-bottom: 1px solid var(--primary-color); */
+    border-top: 1px solid var(--primary-color);
+}
+
+.--accessori-theme {
+    background: url('/content/accessori/accessori-copertina.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    color: var(--secondary-color);
+    /* border-bottom: 1px solid var(--primary-color); */
     border-top: 1px solid var(--primary-color);
 }
 
@@ -83,7 +91,7 @@ video {
     padding-top: 4rem;
     padding-bottom: 4rem;
     display: grid;
-    row-gap: 6rem;
+    row-gap: 8rem;
 }
 
 .section:first-of-type {
@@ -96,7 +104,7 @@ video {
     top: 4rem;
     left: 50%;
     width: 1px;
-    height: 100%;
+    height: calc(100% - 4rem);
     background-color: var(--primary-color);
     transform: scaleY(0);
     transform-origin: top center;
@@ -303,6 +311,16 @@ img.--span-1:nth-child(odd) {
 
 .section-list {
     list-style: inside;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2rem;
+}
+
+.section-grid figcaption {
+    text-align: center;
 }
 
 .section-block {

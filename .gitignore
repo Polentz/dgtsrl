@@ -10,6 +10,11 @@ Icon
 /media/*
 !/media/index.html
 
+# Video files
+# ---------------
+
+*.mp4
+
 # Lock files
 # ---------------
 

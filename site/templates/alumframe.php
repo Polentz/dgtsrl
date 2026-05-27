@@ -36,7 +36,7 @@
                 introducendo una clip che tiene “in simbiosi” i due elementi di cui sono composti sia l'anta che il
                 telaio, senza l'utilizzo di viti.</p>
             <ul class="section-list --text-body">
-                <li>Sistema pratico e senza viti di ancoraggio, sia su telaio che su anta.</li>
+                <li>Sistema pratico e senza viti di ancoraggio, su telaio e su anta.</li>
                 <li>Adatto a tutti i tipi di sistemi in legno.</li>
                 <li>Montaggio (e smontaggio) semplice e veloce.</li>
                 <li>Semolificazione nella produzione e riduzione dei costi.</li>
