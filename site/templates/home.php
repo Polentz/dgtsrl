@@ -1,5 +1,8 @@
 <?= snippet('head') ?>
-<?= snippet('header') ?>
+<?php snippet('header', slots: true) ?>
+<?php slot('home') ?>
+<?php endslot() ?>
+<?php endsnippet() ?>
 
 <section class="section section-hero --dark-theme">
     <div class="container">

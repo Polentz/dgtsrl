@@ -40,6 +40,26 @@ video {
     border-top: 1px solid var(--primary-color);
 }
 
+.--ekotech-theme {
+    background-color: var(--ekotech-color);
+    color: var(--secondary-color);
+}
+
+.--ekotech-theme .button {
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    background-color: transparent;
+}
+
+.--ekotech-theme:has(.banner) {
+    border-top: 1px solid var(--secondary-color);
+}
+
+.section.--light-theme:has(.section-col)::after,
+.section.--ekotech-theme:has(.section-col)::after {
+    background-color: var(--secondary-color);
+}
+
 .--text-heading {
     font-family: "montserrat", sans-serif;
     font-weight: 500;
@@ -207,6 +227,11 @@ img.--span-1:nth-child(odd) {
     color: var(--accent-color);
 }
 
+.nav a.--current {
+    color: var(--accent-color);
+    cursor: default;
+}
+
 .button {
     width: max-content;
     display: inline-block;
@@ -313,10 +338,42 @@ img.--span-1:nth-child(odd) {
     list-style: inside;
 }
 
+.section-custom-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.section-custom-list li {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.section-custom-list svg {
+    width: 2rem;
+    height: 2rem;
+    stroke: var(--secondary-color);
+    stroke-width: 1rem;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+
+.section-custom-list div {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
 .section-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 2rem;
+}
+
+.section-background {
+    padding: 5rem;
 }
 
 .section-grid figcaption {

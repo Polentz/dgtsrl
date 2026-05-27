@@ -1,5 +1,8 @@
 <?= snippet('head') ?>
-<?= snippet('header') ?>
+<?php snippet('header', slots: true) ?>
+<?php slot('alumframe') ?>
+<?php endslot() ?>
+<?php endsnippet() ?>
 
 <section class="section --dark-theme">
     <div class="container">

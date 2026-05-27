@@ -1,11 +1,10 @@
 :root {
-    --doc-height: 100%;
+    --doc-height: 100vh;
     --background-color: #282829;
     --primary-color: #fff;
     --secondary-color: #000;
     --accent-color: #ffffff8a;
     --alumframe-color: #004e4e;
-    /* --ekotech-color: #7ba3dd;
-    --accessori-color: #7ba3dd; */
+    --ekotech-color: #b4dac5;
     --max-width: 1200px;
 }

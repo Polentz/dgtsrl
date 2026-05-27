@@ -1,5 +1,8 @@
 <?= snippet('head') ?>
-<?= snippet('header') ?>
+<?php snippet('header', slots: true) ?>
+<?php slot('accessori') ?>
+<?php endslot() ?>
+<?php endsnippet() ?>
 
 <section class="section --dark-theme">
     <div class="container">
