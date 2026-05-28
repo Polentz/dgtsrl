@@ -4,9 +4,9 @@
 <section class="section --dark-theme">
     <div class="container">
         <div class="section-block --span-1-5">
-            <h2 class="section-title --text-title">
+            <h3 class="section-title --text-title">
                 <?= $page->maintitle() ?>
-            </h2>
+            </h3>
         </div>
 </section>
 
@@ -57,9 +57,9 @@
 <section class="section --dark-theme">
     <div class="container">
         <div class="section-block --span-1-5">
-            <h2 class="section-title --text-title">
+            <h3 class="section-title --text-title">
                 ESPLORA TUTTI I SISTEMI ALUMFRAME:
-            </h2>
+            </h3>
         </div>
     </div>
     <div class="gallery">

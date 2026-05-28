@@ -1,10 +1,3 @@
-<!-- <section class="section --light-theme">
-    <div class="container">
-        <h2 class="section-heading --text-heading --span-1-5">Contattaci</h2>
-    </div>
-</section> -->
-
-
 <address id="contatti" class="address --dark-theme">
     <div class="address-wrapper">
         <ul class="contact-list">

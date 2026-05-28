@@ -3,11 +3,11 @@
 
 <section class="section --dark-theme">
     <div class="container">
-        <h3 class="section-heading --span-1-5 --text-heading">Alumframe: il calore del legno e la protezione
+        <h2 class="section-heading --span-1-5 --text-heading">Alumframe: il calore del legno e la protezione
             dell'alluminio
-        </h3>
+        </h2>
         <div class="section-block --span-1-5">
-            <h2 class="section-title --text-title">I sistemi legno-alluminio Alumframe</h2>
+            <h3 class="section-title --text-title">I sistemi legno-alluminio Alumframe</h3>
         </div>
     </div>
 </section>
