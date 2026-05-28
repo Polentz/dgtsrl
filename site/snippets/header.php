@@ -46,6 +46,28 @@ $uri = $page->uri();
                 <a href="#contatti" class="nav-button" type="button">Contatti</a>
             </nav>
         <?php endif ?>
+        <?php if ($slots->ekotech()): ?>
+            <nav class="nav">
+                <a href="/ekotech" class="nav-button<?= $uri === 'ekotech' ? ' --current' : '' ?>" type="button">Ekotech</a>
+                <a href="/alumframe" class="nav-button<?= $uri === 'alumframe' ? ' --current' : '' ?>"
+                    type="button">Legno-alluminio</a>
+                <a href="/accessori" class="nav-button<?= $uri === 'accessori' ? ' --current' : '' ?>"
+                    type="button">Accessori</a>
+                <a href="#catalogo" class="nav-button" type="button">Catalogo</a>
+                <a href="#contatti" class="nav-button" type="button">Contatti</a>
+            </nav>
+        <?php endif ?>
+        <?php if ($slots->subpages()): ?>
+            <nav class="nav">
+                <a href="/ekotech" class="nav-button<?= $uri === 'ekotech' ? ' --current' : '' ?>" type="button">Ekotech</a>
+                <a href="/alumframe" class="nav-button<?= $uri === 'alumframe' ? ' --current' : '' ?>"
+                    type="button">Legno-alluminio</a>
+                <a href="/accessori" class="nav-button<?= $uri === 'accessori' ? ' --current' : '' ?>"
+                    type="button">Accessori</a>
+                <a href="#catalogo" class="nav-button" type="button">Catalogo</a>
+                <a href="#contatti" class="nav-button" type="button">Contatti</a>
+            </nav>
+        <?php endif ?>
     </menu>
 </header>
 

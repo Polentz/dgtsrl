@@ -47,7 +47,7 @@
             <h3 class="section-title --text-title">Guarnizioni di qualità e certificate</h3>
             <div class="section-block --text-subtitle">
                 <p>Produciamo una gamma completa di guarnizioni per serramenti in legno e in legno-alluminio con
-                    marcatura CE, le uniche certificate per il Cascading Freud.</p>
+                    marcatura CE, le uniche certificate per il Cascading Freud</p>
             </div>
             <div class="section-block --text-body">
                 <p>Le guarnizioni DGT Srl nascono da una ricerca costante su profili e materiali. Realizzate in TP-S
@@ -65,7 +65,7 @@
         <div class="section-col section-col--content section-col--left --span-1-3">
             <h3 class="section-title --text-title">Soglie e gocciolatoi per ogni esigenza</h3>
             <p class="section-subtitle --text-subtitle">Nuove linee di prodotto vengono continuamente sviluppate e
-                testate, in risposta alle evoluzioni di nuove linee di serramenti in legno.</p>
+                testate, in risposta alle evoluzioni di nuove linee di serramenti in legno</p>
             <div class="section-block --text-body">
                 <p>Realizzati in lega AW 6060, soglie e gocciolatoi DGT Srl vengono progettati e prodotti prestando
                     massima attenzione alla qualità dell'alluminio, agli spessori, alle asolature, ai processi di
@@ -88,7 +88,7 @@
             <p class="section-subtitle --text-subtitle">Tutti gli accessori DGT Srl sono progettati e prodotti
                 prestando massima attenzione alla qualità dei materiali, alla resistenza agli agenti atmosferici e alla
                 facilità di installazione, per assicurare prestazioni ottimali e soddisfare le esigenze di ogni
-                progetto.</p>
+                progetto</p>
             <div class="section-block --text-body">
                 <p>Gli accessori per serramenti in legno e legno-alluminio DGT Srl hanno la marcatura CE e sono le
                     uniche certificate per il Cascading Freud. Inoltre, le certificazioni ottenute tramite il Cascading

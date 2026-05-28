@@ -111,11 +111,15 @@ video {
     padding-top: 4rem;
     padding-bottom: 4rem;
     display: grid;
-    row-gap: 8rem;
+    row-gap: 2rem;
 }
 
 .section:first-of-type {
     padding-top: 10rem;
+}
+
+.section:has(.section-col) {
+    row-gap: 8rem;
 }
 
 .section:has(.section-col)::after {
@@ -124,7 +128,7 @@ video {
     top: 4rem;
     left: 50%;
     width: 1px;
-    height: calc(100% - 4rem);
+    height: calc(100% - 8rem);
     background-color: var(--primary-color);
     transform: scaleY(0);
     transform-origin: top center;
@@ -133,6 +137,18 @@ video {
 
 .section:has(.section-col).is-visible::after {
     transform: scaleY(1);
+}
+
+.section h1,
+.section h2,
+.section h3,
+.section p,
+.section figure,
+.section img,
+.section button,
+.section li {
+    opacity: 0;
+    transform: translateY(100px);
 }
 
 .container {

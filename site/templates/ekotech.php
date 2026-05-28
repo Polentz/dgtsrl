@@ -1,6 +1,6 @@
 <?= snippet('head') ?>
 <?php snippet('header', slots: true) ?>
-<?php slot('alumframe') ?>
+<?php slot('ekotech') ?>
 <?php endslot() ?>
 <?php endsnippet() ?>
 
@@ -63,7 +63,7 @@
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Pensare circolare</h3>
-            <p class="section-subtitle --text-subtitle">Legno, Resysta® e alluminio Alumframe.</p>
+            <p class="section-subtitle --text-subtitle">Legno, Resysta® e alluminio Alumframe</p>
             <p class="section-text --text-body">Dall'unione di questi tre materiali nasce Ekotech, il nuovo concept di
                 serramento ecologico e minimale, realizzato con il telaio a base di buccia di riso.</p>
             <ul class="section-custom-list --text-body">
@@ -98,7 +98,7 @@
         <div class="section-col section-col--content section-col--left --span-1-3">
             <h3 class="section-title --text-title">Più spazio alla luce</h3>
             <p class="section-subtitle --text-subtitle">Grazie alla riduzione del nodo totale a 70mm, Ekotech offre alla
-                tua casa grandi superfici vetrate e la trasforma in uno spazio più efficiente e stimolante.</p>
+                tua casa grandi superfici vetrate e la trasforma in uno spazio più efficiente e stimolante</p>
             <ul class="section-custom-list --text-body">
                 <li><svg viewBox="0 0 259 352" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path

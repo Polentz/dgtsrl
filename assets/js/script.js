@@ -22,13 +22,16 @@ const anchorTags = () => {
 };
 
 const initScrollAnimations = () => {
-  const elements = document.querySelectorAll(".section h1, .section h2, .section h3, .section p, .section a, .section img, .section button, .section li");
+  const sectionsWithCols = document.querySelectorAll(".section:has(.section-col)");
+  const elements = gsap.utils.toArray(".section h1, .section h2, .section h3, .section p, .section figure, .section img, .section button, .section li");
+  // const elements = document.querySelectorAll(".section h1, .section h2, .section h3, .section p, .section a, .section img, .section button, .section li");
+  if (!sectionsWithCols.length) return;
   if (!elements.length) return;
 
-  document.querySelectorAll(".section:has(.section-col)").forEach((col) => {
+  sectionsWithCols.forEach((col) => {
     ScrollTrigger.create({
       trigger: col,
-      start: "top 80%",
+      start: "top 75%",
       toggleActions: "play none none none",
       onEnter: () => col.classList.add("is-visible"),
       onLeaveBack: () => col.classList.remove("is-visible"),
@@ -36,12 +39,12 @@ const initScrollAnimations = () => {
   });
 
   elements.forEach((el) => {
-
-    const fromVars = { opacity: 0, duration: 0.8, ease: "power2.out", delay: 0.2 };
-    fromVars.y = 100;
-
-    gsap.from(el, {
-      ...fromVars,
+    gsap.to(el, {
+      opacity: 1,
+      y: 0,
+      duration: 0.8,
+      ease: "power2.out",
+      delay: 0.2,
       scrollTrigger: {
         trigger: el,
         start: "top 95%",

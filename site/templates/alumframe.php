@@ -29,21 +29,36 @@
 </section>
 
 <section class="section --dark-theme">
+    <div class="container">
+        <div class="section-block --span-1-5">
+            <h3 class="section-title --text-title">I profili legno-alluminio Alumframe danno la possibilità a
+                costruttori e architetti di progettare nuove soluzioni e raggiungere nuovi standard performativi</h3>
+        </div>
+        <div class="section-block --text-body --span-2-4">
+            <p>Alumframe è frutto di una ricerca costante che tiene conto di ogni aspetto: componenti, profili,
+                materiali, design, prodotto finito.</p>
+            <p>Ne è un esempio l'ampia gamma di accessori, quali clip di fissaggio e guarnizioni, che permettono di
+                agevolare molteplici soluzioni di applicazione.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section --dark-theme">
     <div id="symbio" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="/content/alumframe/symbio.jpg" alt="Render del sistema Symbio">
+            <img src="/content/alumframe/symbio-2.png" alt="Render del sistema Symbio">
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Symbio: l'armonia nasce dal contrasto</h3>
-            <p class="section-subtitle --text-subtitle">SYMBIO rivoluziona il mondo del serramento in legno,
+            <p class="section-subtitle --text-subtitle">Symbio rivoluziona il mondo del serramento in legno,
                 introducendo una clip che tiene “in simbiosi” i due elementi di cui sono composti sia l'anta che il
-                telaio, senza l'utilizzo di viti.</p>
+                telaio, senza l'utilizzo di viti</p>
             <ul class="section-list --text-body">
-                <li>Sistema pratico e senza viti di ancoraggio, su telaio e su anta.</li>
-                <li>Adatto a tutti i tipi di sistemi in legno.</li>
-                <li>Montaggio (e smontaggio) semplice e veloce.</li>
-                <li>Semolificazione nella produzione e riduzione dei costi.</li>
-                <li>Alta personalizzazione dell'infisso: il bicolore non è mai stato così facile da realizzare.</li>
+                <li>Sistema pratico e senza viti di ancoraggio, su telaio e su anta</li>
+                <li>Adatto a tutti i tipi di sistemi in legno</li>
+                <li>Montaggio (e smontaggio) in quattro semplici passaggi</li>
+                <li>Semplificazione nella produzione e riduzione dei costi</li>
+                <li>Il bicolore non è mai stato così facile da realizzare</li>
             </ul>
             <a class="button button--outline" aria-label="Scarica la brochure" type="button" href="/alumframe">Scarica
                 la brochure</a>
@@ -51,10 +66,10 @@
     </div>
     <div id="alumfast" class="container">
         <div class="section-col section-col--content section-col--left --span-1-3">
-            <h3 class="section-title --text-title">Alumfast: semplice e logico</h3>
+            <h3 class="section-title --text-title">Fornitura in kit</h3>
             <p class="section-subtitle --text-subtitle">Un innovativo sistema di vendita in kit dei profili
                 legno-alluminio Alumframe, pensato per ridurre i costi e guadagnare tempo, senza rinunciare alla
-                qualità.</p>
+                qualità</p>
             <ul class="section-list --text-body">
                 <li>Ogni finestra in una confezione pronta per l'assemblaggio.</li>
                 <li>Istruzioni di montaggio sintetiche e di facile lettura.</li>
@@ -76,10 +91,10 @@
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Ampia gamma di finiture</h3>
             <p class="section-subtitle --text-subtitle">Tecnicamente impeccabile, esteticamente bello: con la scelta
-                della finitura più adatta a ogni progetto, il legno-alluminio Alumframe è design e stile unico.</p>
+                della finitura più adatta a ogni progetto, il legno-alluminio Alumframe è design e stile unico</p>
             <p class="section-text --text-body">Alumframe offre la possibilità di scegliere tra colorazioni RAL,
                 speciali, decorato legno e anodizzati. I processi di verniciatura vengono realizzati con ossidazione
-                anodica per consentire alle finiture Alumframe di resistere alla corrosione e all’azione degradante
+                anodica per consentire alle finiture Alumframe di resistere alla corrosione e all'azione degradante
                 degli agenti atmosferici.</p>
         </div>
     </div>
@@ -87,14 +102,14 @@
 
 <section id="kit" class="section --dark-theme">
     <div class="container">
-        <h2 class="section-heading --text-heading --span-1-5">Fornitura in kit</h2>
+        <h2 class="section-heading --text-heading --span-1-5">Alumfast:<br>semplice e logico</h2>
         <div class="section-block --span-1-5">
             <h3 class="section-title --text-title ">
                 Ogni finestra in una confezione pronta per l'assemblaggio, in pochi e semplici passaggi.
             </h3>
         </div>
 
-        <video class="section-cover --span-1-5" autoplay muted loop>
+        <video class="section-cover --span-1-5" autoplay muted loop controls>
             <source src="/content/alumframe/alumfast.mp4" type="video/mp4">
             Il tuo browser non supporta il tag video.
         </video>

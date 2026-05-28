@@ -37,7 +37,7 @@
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Ekotech: più spazio alla luce</h3>
             <p class="section-subtitle --text-subtitle">La nuova finestra minimale con il nodo totale ridotto a 70 mm:
-                moderna ed ecosostenibile. Ekotech è un prodotto brevettato da DGT srl.</p>
+                moderna ed ecosostenibile. Ekotech è un prodotto brevettato da DGT srl</p>
             <p class="section-text --text-body">Legno, Resysta® e alluminio Alumframe:
                 dall'unione di questi tre materiali nasce Ekotech, il nuovo concept di serramento ecologico e minimale,
                 realizzato con il telaio a base di buccia di riso.</p>
@@ -50,10 +50,8 @@
             <h3 class="section-title --text-title">Alumframe: il calore del legno e la protezione dell'alluminio
             </h3>
             <p class="section-subtitle --text-subtitle">Alumfast, Easy Slim, Grace, Canvas, Bridge, Orizon e Luce
-                sono i
-                sistemi
-                legno-alluminio della famiglia Alumframe. Linee moderne e un sistema di montaggio rapido senza
-                rischi.
+                sono i sistemi legno-alluminio della famiglia Alumframe. Linee moderne e un sistema di montaggio rapido
+                senza rischi
             </p>
             <p class="section-text --text-body">Dal 2016, DGT Srl è anche Alumframe, una linea di profili in
                 legno-alluminio progettati per portare uno stile contemporaneo e di design all'interno della
@@ -74,13 +72,10 @@
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Accessori per finestre sicure e certificate</h3>
             <p class="section-subtitle --text-subtitle">Guarnizioni, soglie e gocciolatoi assicurano alla tua
-                finestra
-                durevolezza, alte
-                prestazioni di tenuta, isolamento e sostenibilità.</p>
+                finestra durevolezza, alte prestazioni di tenuta, isolamento e sostenibilità</p>
             <p class="section-text --text-body">Gli accessori DGT Srl rientrano nel programma Cascading Freud, per
-                finestre e porte
-                conformi alla marcatura CE. Sono prodotti testati e rispondenti ad alti standard qualitativi e di
-                sicurezza, con l'ulteriore garanzia del Made in Italy.</p>
+                finestre e porte conformi alla marcatura CE. Sono prodotti testati e rispondenti ad alti standard
+                qualitativi e di sicurezza, con l'ulteriore garanzia del Made in Italy.</p>
             <a class="button button--outline" aria-label="Scopri gli accessori" type="button" href="/alumframe">Scopri
                 gli accessori</a>
         </div>

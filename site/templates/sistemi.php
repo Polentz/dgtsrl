@@ -1,5 +1,8 @@
 <?= snippet('head') ?>
-<?= snippet('header') ?>
+<?php snippet('header', slots: true) ?>
+<?php slot('subpages') ?>
+<?php endslot() ?>
+<?php endsnippet() ?>
 
 <section class="section --dark-theme">
     <div class="container">
@@ -73,6 +76,17 @@
                     href="<?= $sibling->url() ?>"><?= $sibling->title() ?></a>
             <?php endif ?>
         <?php endforeach ?>
+    </div>
+</section>
+
+<section id="catalogo" class="section --alumframe-theme">
+    <div class="container">
+        <div class="banner --span-1-5">
+            <h3 class="banner-title --text-title">Scarica il catalogo completo dei sistemi legno-alluminio Alumframe
+            </h3>
+            <a class="button button--outline" aria-label="Scarica il catalogo" type="button"
+                href="/content/catalogo-alumframe.pdf" target="_blank">Scarica il catalogo</a>
+        </div>
     </div>
 </section>
 
