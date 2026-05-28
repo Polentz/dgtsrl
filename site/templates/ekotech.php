@@ -1,8 +1,5 @@
 <?= snippet('head') ?>
-<?php snippet('header', slots: true) ?>
-<?php slot('ekotech') ?>
-<?php endslot() ?>
-<?php endsnippet() ?>
+<?php snippet('header', slots: false) ?>
 
 <section class="section --ekotech-theme">
     <div class="container">
@@ -176,7 +173,7 @@
         <div class="banner --span-1-5">
             <h3 class="banner-title --text-title">Scarica la brochure Ekotech</h3>
             <a class="button button--outline" aria-label="Scarica la brochure" type="button"
-                href="/content/brochure-ekotech.pdf" target="_blank">Scarica la brochure</a>
+                href="/content/ekotech/DGT-Ekotech-brochure.pdf" target="_blank">Scarica la brochure</a>
         </div>
     </div>
 </section>
@@ -187,7 +184,7 @@
             <h3 class="banner-title --text-title">Scarica il catalogo tecnico Ekotech
             </h3>
             <a class="button button--outline" aria-label="Scarica il catalogo" type="button"
-                href="/content/catalogo-ekotech.pdf" target="_blank">Scarica il catalogo</a>
+                href="/content/ekotech/DGT-Ekotech-catalogo-01-2025.pdf" target="_blank">Scarica il catalogo</a>
         </div>
     </div>
 </section>

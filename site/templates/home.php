@@ -41,7 +41,7 @@
             <p class="section-text --text-body">Legno, Resysta® e alluminio Alumframe:
                 dall'unione di questi tre materiali nasce Ekotech, il nuovo concept di serramento ecologico e minimale,
                 realizzato con il telaio a base di buccia di riso.</p>
-            <a class="button button--outline" aria-label="Scopri Ekotech" type="button" href="/alumframe">Scopri
+            <a class="button button--outline" aria-label="Scopri Ekotech" type="button" href="/ekotech">Scopri
                 Ekotech</a>
         </div>
     </div>
@@ -76,7 +76,7 @@
             <p class="section-text --text-body">Gli accessori DGT Srl rientrano nel programma Cascading Freud, per
                 finestre e porte conformi alla marcatura CE. Sono prodotti testati e rispondenti ad alti standard
                 qualitativi e di sicurezza, con l'ulteriore garanzia del Made in Italy.</p>
-            <a class="button button--outline" aria-label="Scopri gli accessori" type="button" href="/alumframe">Scopri
+            <a class="button button--outline" aria-label="Scopri gli accessori" type="button" href="/accessori">Scopri
                 gli accessori</a>
         </div>
     </div>

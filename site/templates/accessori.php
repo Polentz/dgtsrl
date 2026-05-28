@@ -1,15 +1,12 @@
 <?= snippet('head') ?>
-<?php snippet('header', slots: true) ?>
-<?php slot('accessori') ?>
-<?php endslot() ?>
-<?php endsnippet() ?>
+<?php snippet('header', slots: false) ?>
 
 <section class="section --dark-theme">
     <div class="container">
-        <h3 class="section-heading --span-1-5 --text-heading">Accessori per finestre sicure e certificate</h3>
+        <h2 class="section-heading --span-1-5 --text-heading">Accessori per finestre sicure e certificate</h2>
         <div class="section-block --span-1-5">
-            <h2 class="section-title --text-title">Guarnizioni, soglie e gocciolatoi: fornitura completa per le tue
-                finestre in legno e legno-alluminio</h2>
+            <h3 class="section-title --text-title">Guarnizioni, soglie e gocciolatoi: fornitura completa per le tue
+                finestre in legno e legno-alluminio</h3>
         </div>
     </div>
 </section>
@@ -104,7 +101,7 @@
         <div class="section-block --span-1-5">
             <h3 class="section-title --text-title ">
                 Sono disponibili tutti gli accessori <br>
-                per le diverse applicazione
+                per le diverse applicazioni
             </h3>
         </div>
         <div class="section-grid --span-1-5">
@@ -142,7 +139,7 @@
             <h3 class="banner-title --text-title">Scarica il catalogo completo degli accessori DGT Srl</h3>
             </h3>
             <a class="button button--outline" aria-label="Scarica il catalogo" type="button"
-                href="/content/catalogo-alumframe.pdf" target="_blank">Scarica il catalogo</a>
+                href="/content/accessori/DGT-catalogo-10-2025.pdf" target="_blank">Scarica il catalogo</a>
         </div>
     </div>
 </section>
