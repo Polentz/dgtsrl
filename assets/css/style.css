@@ -28,7 +28,6 @@ video {
 .--alumframe-theme {
     background-color: var(--alumframe-color);
     color: var(--primary-color);
-    /* border-bottom: 1px solid var(--primary-color); */
     border-top: 1px solid var(--primary-color);
 }
 
@@ -36,7 +35,6 @@ video {
     background: url('/content/accessori/accessori-copertina.jpg') no-repeat center center/cover;
     background-attachment: fixed;
     color: var(--secondary-color);
-    /* border-bottom: 1px solid var(--primary-color); */
     border-top: 1px solid var(--primary-color);
 }
 
@@ -372,13 +370,6 @@ img.--span-1:nth-child(odd) {
     padding-top: 0;
 }
 
-/* .section-hero .container {
-    height: auto;
-    position: sticky;
-    top: 8rem;
-    text-align: center;
-} */
-
 .section-list {
     list-style: inside;
 }
@@ -451,36 +442,6 @@ img.--span-1:nth-child(odd) {
 .section-col--left {
     padding-right: 2rem;
 }
-
-/* .section-col--left::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 1px;
-    height: 100%;
-    background-color: var(--primary-color);
-    transform: scaleY(0);
-    transform-origin: top center;
-    transition: transform 1s cubic-bezier(0.76, 0, 0.24, 1);
-}
-
-.section-col--left.is-visible::after {
-    transform: scaleY(1);
-} */
-
-/* .section-col--image {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-} */
-
-/* .section-col--image img {
-    height: 50vh;
-    max-height: 50vh;
-    object-fit: contain;
-    aspect-ratio: 3 / 4;
-    object-fit: cover;
-} */
 
 .banner {
     display: flex;

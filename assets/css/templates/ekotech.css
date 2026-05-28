@@ -1,11 +1,3 @@
-    *::-moz-selection {
-        background: transparent !important;
-    }
-
-    *::selection {
-        background: transparent !important;
-    }
-
     .shutter-container {
         position: relative;
         width: var(--max-width);

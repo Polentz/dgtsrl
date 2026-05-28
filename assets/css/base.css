@@ -182,3 +182,21 @@ button {
     user-select: none;
     -webkit-user-select: none;
 }
+
+*::-moz-selection {
+    background: var(--dgt-color);
+}
+
+*::selection {
+    background: var(--dgt-color);
+}
+
+img::-moz-selection,
+video::-moz-selection {
+    background: transparent !important;
+}
+
+img::selection,
+video::selection {
+    background: transparent !important;
+}
