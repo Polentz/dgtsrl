@@ -11,6 +11,11 @@ $uri = $page->uri();
                 <?= $site->title() ?>
             </a>
         </h1>
+        <button class="menu-toggle" aria-label="Apri menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <?php if ($slots->home()): ?>
             <nav class="nav">
                 <a href="/ekotech" class="nav-button<?= $uri === 'ekotech' ? ' --current' : '' ?>" type="button">Ekotech</a>

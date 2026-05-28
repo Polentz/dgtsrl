@@ -154,6 +154,7 @@ video {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    align-items: start;
     row-gap: 2rem;
     column-gap: 2rem;
 }
@@ -273,6 +274,10 @@ img.--span-1:nth-child(odd) {
 .nav a.--current {
     color: var(--accent-color);
     cursor: default;
+}
+
+.menu-toggle {
+    display: none;
 }
 
 .button {
@@ -485,13 +490,78 @@ p.contact-item {
     }
 }
 
+@media (max-width: 950px) {
+    html {
+        scroll-padding-top: 6rem;
+    }
+
+    .section:first-of-type {
+        padding-top: 8rem;
+    }
+
+    .menu {
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 0.25rem;
+    }
+
+    .menu-toggle span {
+        display: block;
+        width: 24px;
+        height: 2px;
+        background-color: var(--primary-color);
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .menu-toggle.is-active span:nth-child(1) {
+        transform: translateY(7px) rotate(45deg);
+    }
+
+    .menu-toggle.is-active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.is-active span:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        padding: 0;
+        transition: max-height 0.4s ease, padding 0.4s ease;
+    }
+
+    .nav.is-open {
+        max-height: 20rem;
+        padding: 2rem 0 1rem;
+    }
+
+    .nav-label {
+        position: static;
+        padding-left: .5rem;
+    }
+}
+
+
+
 @media (max-width: 600px) {
     html {
         scroll-padding-top: 14rem;
     }
 
     .container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         padding: 0 1rem;
     }
 
@@ -505,19 +575,6 @@ p.contact-item {
     .gallery {
         grid-template-columns: repeat(2, 1fr);
         padding: 0 1rem;
-    }
-
-    .menu {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1rem;
-        padding: 1rem;
-    }
-
-    .nav {
-        flex-wrap: wrap;
-        gap: 1rem;
-        justify-content: flex-start;
     }
 
     .section {
@@ -587,8 +644,8 @@ p.contact-item {
     .address-wrapper {
         flex-direction: column;
         gap: 2rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding: 2, 5rem 1rem;
+
     }
 
     .colophon-wrapper {
@@ -596,5 +653,9 @@ p.contact-item {
         gap: 1rem;
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+
+    p.contact-item {
+        text-align: start;
     }
 }

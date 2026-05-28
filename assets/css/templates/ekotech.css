@@ -73,13 +73,12 @@ svg#identity {
     cursor: grab;
 }
 
-
-@media (max-width: 600px) {
-    svg#identity {
-        width: calc(100vw - 2rem);
-    }
-
+@media (max-width: 1200px) {
     .shutter-container {
         width: auto;
+    }
+
+    svg#identity {
+        width: calc(100vw - 4rem);
     }
 }

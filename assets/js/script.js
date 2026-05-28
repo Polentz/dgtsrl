@@ -112,11 +112,36 @@ const initScrollAnimations = () => {
   });
 };
 
+const initMobileMenu = () => {
+  const toggle = document.querySelector(".menu-toggle");
+  const nav = document.querySelector(".nav");
+  if (!toggle || !nav) return;
+
+  const close = () => {
+    nav.classList.remove("is-open");
+    toggle.classList.remove("is-active");
+    toggle.setAttribute("aria-expanded", "false");
+  };
+
+  toggle.addEventListener("click", () => {
+    const isOpen = nav.classList.toggle("is-open");
+    toggle.classList.toggle("is-active", isOpen);
+    toggle.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  nav.querySelectorAll("a").forEach(link => link.addEventListener("click", close));
+
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") close(); });
+
+  window.addEventListener("resize", () => { if (window.innerWidth > 900) close(); });
+};
+
 window.addEventListener("load", () => {
   documentHeight();
   anchorTags();
   initGalleryHover();
   initScrollAnimations();
+  initMobileMenu();
 });
 
 window.addEventListener("resize", () => {

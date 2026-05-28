@@ -39,8 +39,7 @@
                         target="_blank">LinkedIn</a></p>
             </li>
         </ul>
-        <p class="contact-item --text-title">Via dell'Industria, 58 <br>
-            60020 Polverigi (AN)</p>
+        <p class="contact-item --text-title">Via dell'Industria, 58<br>60020 Polverigi (AN)</p>
     </div>
 </address>
 
