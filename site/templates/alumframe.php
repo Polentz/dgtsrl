@@ -105,7 +105,7 @@
         <h2 class="section-heading --text-heading --span-1-5">Alumfast:<br>semplice e logico</h2>
         <div class="section-block --span-1-5">
             <h3 class="section-title --text-title ">
-                Ogni finestra in una confezione pronta per l'assemblaggio, in pochi e semplici passaggi.
+                Ogni finestra in una confezione pronta per l'assemblaggio, in pochi e semplici passaggi
             </h3>
         </div>
 

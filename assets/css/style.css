@@ -1,7 +1,7 @@
 html {
     font-size: 100%;
     scroll-behavior: smooth;
-    scroll-padding-top: 4rem;
+    scroll-padding-top: 10rem;
 }
 
 img,
@@ -232,6 +232,18 @@ img.--span-1:nth-child(odd) {
     letter-spacing: 4px;
     display: flex;
     gap: 2rem;
+}
+
+.nav-button {
+    position: relative;
+}
+
+.nav-label {
+    position: absolute;
+    color: var(--highlight-color);
+    top: 100%;
+    left: 80%;
+    transform: translateX(-50%) rotate(350deg);
 }
 
 .nav a {

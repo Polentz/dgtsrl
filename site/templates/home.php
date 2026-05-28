@@ -18,7 +18,7 @@
         <div class="section-block --span-1-5">
             <h3 class="section-title --text-title">
                 DGT Srl lavora al fianco di falegnami e serramentisti con idee e soluzioni intorno alla tua finestra in
-                legno e legno-alluminio.
+                legno e legno-alluminio
             </h3>
         </div>
         <div class="section-block --span-2-4">

@@ -18,8 +18,8 @@ $uri = $page->uri();
                     type="button">Legno-alluminio</a>
                 <a href="/accessori" class="nav-button<?= $uri === 'accessori' ? ' --current' : '' ?>"
                     type="button">Accessori</a>
-                <a href="#servizi" class="nav-button" type="button">Servizi</a>
-                <a href="#azienda" class="nav-button" type="button">Azienda</a>
+                <a href="/alumframe#symbio" class="nav-button" type="button">Symbio<span class="nav-label">Novità</span></a>
+                <a href="#servizi" class="nav-button" type="button">L'azienda</a>
                 <a href="#contatti" class="nav-button" type="button">Contatti</a>
             </nav>
         <?php endif ?>
@@ -30,7 +30,7 @@ $uri = $page->uri();
                     type="button">Legno-alluminio</a>
                 <a href="/accessori" class="nav-button<?= $uri === 'accessori' ? ' --current' : '' ?>"
                     type="button">Accessori</a>
-                <a href="#symbio" class="nav-button" type="button">Symbio</a>
+                <a href="#symbio" class="nav-button" type="button">Symbio<span class="nav-label">Novità</span></a>
                 <a href="#catalogo" class="nav-button" type="button">Catalogo</a>
                 <a href="#contatti" class="nav-button" type="button">Contatti</a>
             </nav>
@@ -42,6 +42,7 @@ $uri = $page->uri();
                     type="button">Legno-alluminio</a>
                 <a href="/accessori" class="nav-button<?= $uri === 'accessori' ? ' --current' : '' ?>"
                     type="button">Accessori</a>
+                <a href="/alumframe#symbio" class="nav-button" type="button">Symbio<span class="nav-label">Novità</span></a>
                 <a href="#catalogo" class="nav-button" type="button">Catalogo</a>
                 <a href="#contatti" class="nav-button" type="button">Contatti</a>
             </nav>
@@ -53,6 +54,7 @@ $uri = $page->uri();
                     type="button">Legno-alluminio</a>
                 <a href="/accessori" class="nav-button<?= $uri === 'accessori' ? ' --current' : '' ?>"
                     type="button">Accessori</a>
+                <a href="/alumframe#symbio" class="nav-button" type="button">Symbio<span class="nav-label">Novità</span></a>
                 <a href="#catalogo" class="nav-button" type="button">Catalogo</a>
                 <a href="#contatti" class="nav-button" type="button">Contatti</a>
             </nav>
@@ -64,6 +66,7 @@ $uri = $page->uri();
                     type="button">Legno-alluminio</a>
                 <a href="/accessori" class="nav-button<?= $uri === 'accessori' ? ' --current' : '' ?>"
                     type="button">Accessori</a>
+                <a href="/alumframe#symbio" class="nav-button" type="button">Symbio<span class="nav-label">Novità</span></a>
                 <a href="#catalogo" class="nav-button" type="button">Catalogo</a>
                 <a href="#contatti" class="nav-button" type="button">Contatti</a>
             </nav>
