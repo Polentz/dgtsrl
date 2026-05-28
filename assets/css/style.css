@@ -145,7 +145,7 @@ video {
 .section p,
 .section figure,
 .section img,
-.section button,
+.section .button,
 .section li {
     opacity: 0;
     transform: translateY(100px);
@@ -170,6 +170,15 @@ video {
     column-gap: 2rem;
 }
 
+.gallery-item>a {
+    display: flex;
+    overflow: hidden;
+}
+
+.gallery-caption a {
+    width: fit-content;
+}
+
 .--span-1 {
     grid-column: span 1;
 }
@@ -188,6 +197,14 @@ video {
 
 .--span-3-5 {
     grid-column: 3 / 5;
+}
+
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--accent-color);
 }
 
 img.--span-1:nth-child(odd) {
@@ -241,8 +258,8 @@ img.--span-1:nth-child(odd) {
 .nav-label {
     position: absolute;
     color: var(--highlight-color);
-    top: 100%;
-    left: 80%;
+    top: -110%;
+    left: 20%;
     transform: translateX(-50%) rotate(350deg);
 }
 

@@ -25,7 +25,7 @@ const anchorTags = () => {
   const animateButtons = () => {
     const buttons = document.querySelectorAll(".button");
     buttons.forEach(button => {
-      gsap.set(button, { opacity: 0, y: 10, backgroundColor: "var(--secondary-color)" });
+      gsap.set(button, { opacity: 0, y: 10, backgroundColor: "var(--secondary-color)", color: "var(--primary-color)" });
       const tl = gsap.timeline();
       tl.to(button, {
         opacity: 1,
@@ -36,8 +36,12 @@ const anchorTags = () => {
       });
       tl.to(button, {
         backgroundColor: "transparent",
+        color: "inherit",
         duration: 0.5,
         ease: "power2.out",
+        onComplete: () => {
+          gsap.set(button, { clearProps: "backgroundColor,color" });
+        }
       });
     });
   };
@@ -62,9 +66,23 @@ const anchorTags = () => {
   });
 };
 
+const initGalleryHover = () => {
+  const galleryItems = document.querySelectorAll(".gallery-item:has(> a)");
+  galleryItems.forEach((item) => {
+    const img = item.querySelector("a > img");
+    if (!img) return;
+    item.addEventListener("mouseenter", () => {
+      gsap.to(img, { scale: 1.08, duration: 0.8, ease: "power2.out" });
+    });
+    item.addEventListener("mouseleave", () => {
+      gsap.to(img, { scale: 1, duration: 0.8, ease: "power2.out" });
+    });
+  });
+};
+
 const initScrollAnimations = () => {
   const sectionsWithCols = document.querySelectorAll(".section:has(.section-col)");
-  const elements = document.querySelectorAll(".section h1, .section h2, .section h3, .section p, .section figure, .section img, .section button, .section li");
+  const elements = document.querySelectorAll(".section h1, .section h2, .section h3, .section p, .section figure, .section img, .section .button, .section li");
   if (!sectionsWithCols.length) return;
   if (!elements.length) return;
 
@@ -97,6 +115,7 @@ const initScrollAnimations = () => {
 window.addEventListener("load", () => {
   documentHeight();
   anchorTags();
+  initGalleryHover();
   initScrollAnimations();
 });
 

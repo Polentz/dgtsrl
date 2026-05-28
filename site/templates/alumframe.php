@@ -21,8 +21,10 @@
             <figure class="gallery-item --span-1">
                 <a href="<?= $page->url() ?>" target="_blank">
                     <img src="<?= $page->cover()->toFile()->url() ?>" alt="<?= $page->title() ?>">
-                    <figcaption class="gallery-caption --text-title"><?= $page->title() ?></figcaption>
                 </a>
+                <figcaption class="gallery-caption --text-title">
+                    <a href="<?= $page->url() ?>" target="_blank"><?= $page->title() ?></a>
+                </figcaption>
             </figure>
         <?php endforeach ?>
     </div>
