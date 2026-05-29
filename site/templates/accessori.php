@@ -14,28 +14,22 @@
 <section class="section --dark-theme">
     <div class="gallery">
         <figure class="gallery-item --span-1">
-            <img src="<?= $page->image('guarnizioni-1.png')?->resize(1200, null)->url() ?>" loading="lazy"
-                alt="Foto di guarnizioni">
+            <?php snippet('image', ['file' => $page->image('guarnizioni-1.png'), 'alt' => 'Foto di guarnizioni']) ?>
         </figure>
         <figure class="gallery-item --span-1">
-            <img src="<?= $page->image('guarnizioni-2.png')?->resize(1200, null)->url() ?>" loading="lazy"
-                alt="Foto di guarnizioni">
+            <?php snippet('image', ['file' => $page->image('guarnizioni-2.png'), 'alt' => 'Foto di guarnizioni']) ?>
         </figure>
         <figure class="gallery-item --span-1">
-            <img src="<?= $page->image('guarnizioni-3.png')?->resize(1200, null)->url() ?>" loading="lazy"
-                alt="Foto di guarnizioni">
+            <?php snippet('image', ['file' => $page->image('guarnizioni-3.png'), 'alt' => 'Foto di guarnizioni']) ?>
         </figure>
         <figure class="gallery-item --span-1">
-            <img src="<?= $page->image('soglie-1.jpg')?->resize(1200, null)->url() ?>" loading="lazy"
-                alt="Foto di soglie">
+            <?php snippet('image', ['file' => $page->image('soglie-1.jpg'), 'alt' => 'Foto di soglie']) ?>
         </figure>
         <figure class="gallery-item --span-1">
-            <img src="<?= $page->image('soglie-2.jpg')?->resize(1200, null)->url() ?>" loading="lazy"
-                alt="Foto di soglie">
+            <?php snippet('image', ['file' => $page->image('soglie-2.jpg'), 'alt' => 'Foto di soglie']) ?>
         </figure>
         <figure class="gallery-item --span-1">
-            <img src="<?= $page->image('soglie-3.jpg')?->resize(1200, null)->url() ?>" loading="lazy"
-                alt="Foto di soglie">
+            <?php snippet('image', ['file' => $page->image('soglie-3.jpg'), 'alt' => 'Foto di soglie']) ?>
         </figure>
     </div>
 </section>
@@ -43,8 +37,7 @@
 <section class="section --dark-theme">
     <div id="guarnizioni" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="<?= $page->image('dgt-guarnizione-posa.jpg')?->resize(1200, null)->url() ?>" loading="lazy"
-                alt="Fotografia di una guarnizione montata su un serramento in legno">
+            <?php snippet('image', ['file' => $page->image('dgt-guarnizione-posa.jpg'), 'alt' => 'Fotografia di una guarnizione montata su un serramento in legno']) ?>
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Guarnizioni di qualità e certificate</h3>
@@ -78,14 +71,12 @@
             </div>
         </div>
         <div class="section-col section-col--image section-col--right --span-3-5">
-            <img src="<?= $page->image('soglie.jpg')?->resize(1200, null)->url() ?>" loading="lazy"
-                alt="Fotografia di soglie per serramenti in legno">
+            <?php snippet('image', ['file' => $page->image('soglie.jpg'), 'alt' => 'Fotografia di soglie per serramenti in legno']) ?>
         </div>
     </div>
     <div id="certificazioni" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="<?= $page->image('dgt-cascading.jpg')?->resize(1200, null)->url() ?>" loading="lazy"
-                alt="Simbolo del Cascading Freud, sistema di certificazione per serramenti in legno con una finestra in legno come sfondo">
+            <?php snippet('image', ['file' => $page->image('dgt-cascading.jpg'), 'alt' => 'Simbolo del Cascading Freud, sistema di certificazione per serramenti in legno con una finestra in legno come sfondo']) ?>
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Marcatura CE e Cascading Freud</h3>
@@ -113,33 +104,27 @@
         </div>
         <div class="section-grid --span-1-5">
             <figure class="--span-1">
-                <img src="<?= $page->image('grondalino.svg')?->resize(1200, null)->url() ?>" loading="lazy"
-                    alt="Disegno tecnico di un grondalino per serramenti">
+                <?php snippet('image', ['file' => $page->image('grondalino.svg'), 'alt' => 'Disegno tecnico di un grondalino per serramenti']) ?>
                 <figcaption class="--text-caption">Grondalino</figcaption>
             </figure>
             <figure class="--span-1">
-                <img src="<?= $page->image('clip-1.svg')?->resize(1200, null)->url() ?>" loading="lazy"
-                    alt="Disegno tecnico di una clip per serramenti">
+                <?php snippet('image', ['file' => $page->image('clip-1.svg'), 'alt' => 'Disegno tecnico di una clip per serramenti']) ?>
                 <figcaption class="--text-caption">Clip</figcaption>
             </figure>
             <figure class="--span-1">
-                <img src="<?= $page->image('copertura.svg')?->resize(1200, null)->url() ?>" loading="lazy"
-                    alt="Disegno tecnico di una copertura per serramenti">
+                <?php snippet('image', ['file' => $page->image('copertura.svg'), 'alt' => 'Disegno tecnico di una copertura per serramenti']) ?>
                 <figcaption class="--text-caption">Cover</figcaption>
             </figure>
             <figure class="--span-1">
-                <img src="<?= $page->image('piattine.svg')?->resize(1200, null)->url() ?>" loading="lazy"
-                    alt="Disegno tecnico di piattine per serramenti">
+                <?php snippet('image', ['file' => $page->image('piattine.svg'), 'alt' => 'Disegno tecnico di piattine per serramenti']) ?>
                 <figcaption class="--text-caption">Piattine</figcaption>
             </figure>
             <figure class="--span-1">
-                <img src="<?= $page->image('clip-2.svg')?->resize(1200, null)->url() ?>" loading="lazy"
-                    alt="Disegno tecnico di una clip per serramenti">
+                <?php snippet('image', ['file' => $page->image('clip-2.svg'), 'alt' => 'Disegno tecnico di una clip per serramenti']) ?>
                 <figcaption class="--text-caption">Clip</figcaption>
             </figure>
             <figure class="--span-1">
-                <img src="<?= $page->image('fermavetro.svg')?->resize(1200, null)->url() ?>" loading="lazy"
-                    alt="Disegno tecnico di un fermavetro per serramenti">
+                <?php snippet('image', ['file' => $page->image('fermavetro.svg'), 'alt' => 'Disegno tecnico di un fermavetro per serramenti']) ?>
                 <figcaption class="--text-caption">Fermavetro</figcaption>
             </figure>
         </div>

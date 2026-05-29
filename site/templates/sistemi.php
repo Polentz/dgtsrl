@@ -14,8 +14,7 @@
     <div class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
             <figure>
-                <img src="<?= $page->cover()->toFile()->resize(1200, null)->url() ?>" loading="lazy"
-                    alt="<?= $page->cover()->toFile()->title() ?>">
+                <?php snippet('image', ['file' => $page->cover()->toFile(), 'alt' => $page->cover()->toFile()->title()]) ?>
                 <?php if ($page->cover()->toFile()->title()->isNotEmpty()): ?>
                     <figcaption class="gallery-caption --text-caption">
                         <?= $page->cover()->toFile()->title() ?>
@@ -43,7 +42,7 @@
         <div class="gallery">
             <?php foreach ($page->gallery()->toFiles() as $file): ?>
                 <figure class="gallery-item --span-1" <?= $file->span() ? "style='grid-column: span {$file->span()}'" : "" ?>>
-                    <img src="<?= $file->resize(1200, null)->url() ?>" loading="lazy" alt="<?= $file->title() ?>">
+                    <?php snippet('image', ['file' => $file, 'alt' => $file->title()]) ?>
                     <?php if ($file->title()->isNotEmpty()): ?>
                         <figcaption class="gallery-caption --text-caption">
                             <?= $file->title() ?>

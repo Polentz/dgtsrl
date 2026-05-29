@@ -5,65 +5,85 @@ const documentHeight = () => {
   doc.style.setProperty("--doc-height", `${window.innerHeight}px`);
 };
 
+const headerOffset = () => parseFloat(getComputedStyle(document.documentElement).fontSize) * 10;
+
+const animateFooterElements = () => {
+  const contactItems = document.querySelectorAll(".contact-item");
+  contactItems.forEach(item => {
+    gsap.set(item, { opacity: 0, y: 10 });
+    gsap.to(item, {
+      opacity: 1,
+      y: 0,
+      duration: 0.8,
+      ease: "power2.out",
+      delay: 0.2,
+    });
+  });
+};
+
+const animateButtons = () => {
+  const buttons = document.querySelectorAll(".button");
+  buttons.forEach(button => {
+    gsap.set(button, { opacity: 0, y: 10, backgroundColor: "var(--secondary-color)", color: "var(--primary-color)" });
+    const tl = gsap.timeline();
+    tl.to(button, {
+      opacity: 1,
+      y: 0,
+      duration: 0.8,
+      ease: "power2.out",
+      delay: 0.2,
+    });
+    tl.to(button, {
+      backgroundColor: "transparent",
+      color: "inherit",
+      duration: 0.5,
+      ease: "power2.out",
+      onComplete: () => {
+        gsap.set(button, { clearProps: "backgroundColor,color" });
+      }
+    });
+  });
+};
+
+const scrollToTarget = (target, smooth = true) => {
+  const top = target.getBoundingClientRect().top + window.scrollY - headerOffset();
+  window.scrollTo({ top, behavior: smooth ? "smooth" : "auto" });
+  if (target.id === "contatti") {
+    animateFooterElements();
+  };
+  if (target.id === "catalogo") {
+    animateButtons();
+  };
+};
+
 const anchorTags = () => {
   const links = document.querySelectorAll("a");
-
-  const animateFooterElements = () => {
-    const contactItems = document.querySelectorAll(".contact-item");
-    contactItems.forEach(item => {
-      gsap.set(item, { opacity: 0, y: 10 });
-      gsap.to(item, {
-        opacity: 1,
-        y: 0,
-        duration: 0.8,
-        ease: "power2.out",
-        delay: 0.2,
-      });
-    });
-  };
-
-  const animateButtons = () => {
-    const buttons = document.querySelectorAll(".button");
-    buttons.forEach(button => {
-      gsap.set(button, { opacity: 0, y: 10, backgroundColor: "var(--secondary-color)", color: "var(--primary-color)" });
-      const tl = gsap.timeline();
-      tl.to(button, {
-        opacity: 1,
-        y: 0,
-        duration: 0.8,
-        ease: "power2.out",
-        delay: 0.2,
-      });
-      tl.to(button, {
-        backgroundColor: "transparent",
-        color: "inherit",
-        duration: 0.5,
-        ease: "power2.out",
-        onComplete: () => {
-          gsap.set(button, { clearProps: "backgroundColor,color" });
-        }
-      });
-    });
-  };
-
   links.forEach(link => {
     const href = link.getAttribute("href");
     if (href.startsWith("#")) {
       link.addEventListener("click", (event) => {
         event.preventDefault();
         const target = document.querySelector(href);
-        const offset = parseFloat(getComputedStyle(document.documentElement).fontSize) * 10;
-        const top = target.getBoundingClientRect().top + window.scrollY - offset;
-        window.scrollTo({ top, behavior: "smooth" });
-        if (target.id === "contatti") {
-          animateFooterElements();
-        };
-        if (target.id === "catalogo") {
-          animateButtons();
-        };
+        if (target) scrollToTarget(target);
       });
     };
   });
+};
+
+// Cross-page anchors (e.g. /alumframe#symbio): the browser's native jump fires
+// before lazy images and entry animations settle, so it lands at the wrong spot.
+// Recompute the offset-aware position once layout is stable.
+const handleInitialHash = () => {
+  if (!window.location.hash) return;
+  let target;
+  try {
+    target = document.querySelector(window.location.hash);
+  } catch {
+    return; // ignore malformed hashes
+  }
+  if (!target) return;
+  ScrollTrigger.refresh();
+  requestAnimationFrame(() => scrollToTarget(target, false));
 };
 
 const initGalleryHover = () => {
@@ -105,7 +125,7 @@ const initScrollAnimations = () => {
       delay: 0.2,
       scrollTrigger: {
         trigger: el,
-        start: "top 95%",
+        start: "top 98%",
         toggleActions: "play none none none",
       },
     });
@@ -142,6 +162,7 @@ window.addEventListener("load", () => {
   initGalleryHover();
   initScrollAnimations();
   initMobileMenu();
+  handleInitialHash();
 });
 
 window.addEventListener("resize", () => {

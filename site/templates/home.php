@@ -32,8 +32,7 @@
 <section class="section --dark-theme">
     <div id="ekotech" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="<?= $page->image('ekotech-colori.png')?->resize(1200, null)->url() ?>" loading="lazy"
-                alt="Profili Ekotech in diverse colorazioni">
+            <?php snippet('image', ['file' => $page->image('ekotech-colori.png'), 'alt' => 'Profili Ekotech in diverse colorazioni']) ?>
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Ekotech: più spazio alla luce</h3>
@@ -62,14 +61,12 @@
                 href="<?= page('alumframe')?->url() ?>">Scopri il legno-alluminio</a>
         </div>
         <div class="section-col section-col--image section-col--right --span-3-5">
-            <img src="<?= $page->image('graphics-alumframe.png')?->resize(1200, null)->url() ?>" loading="lazy"
-                alt="Profilo Alumframe legno-alluminio">
+            <?php snippet('image', ['file' => $page->image('graphics-alumframe.png'), 'alt' => 'Profilo Alumframe legno-alluminio']) ?>
         </div>
     </div>
     <div id="accessori" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="<?= $page->image('graphics-accessori.png')?->resize(1200, null)->url() ?>" loading="lazy"
-                alt="Accessori per finestre, guarnizioni, soglie e gocciolatoi">
+            <?php snippet('image', ['file' => $page->image('graphics-accessori.png'), 'alt' => 'Accessori per finestre, guarnizioni, soglie e gocciolatoi']) ?>
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Accessori per finestre sicure e certificate</h3>
@@ -88,14 +85,10 @@
 <section id="servizi" class="section --light-theme">
     <div class="container">
         <h2 class="section-heading --text-heading --span-1-5">Tecnologia in scatola <br>e servizi su misura</h2>
-        <img class="--span-1" src="<?= $page->image('graphics-ufficio tecnico.png')?->resize(1200, null)->url() ?>"
-            loading="lazy" alt="Simbolo ufficio tecnico">
-        <img class="--span-1" src="<?= $page->image('graphics-rete.png')?->resize(1200, null)->url() ?>" loading="lazy"
-            alt="Simbolo rete commerciale">
-        <img class="--span-1" src="<?= $page->image('graphics-spedizioni.png')?->resize(1200, null)->url() ?>"
-            loading="lazy" alt="Simbolo spedizioni">
-        <img class="--span-1" src="<?= $page->image('graphics-certificazioni.png')?->resize(1200, null)->url() ?>"
-            loading="lazy" alt="Simbolo certificazioni">
+        <?php snippet('image', ['file' => $page->image('graphics-ufficio tecnico.png'), 'class' => '--span-1', 'alt' => 'Simbolo ufficio tecnico']) ?>
+        <?php snippet('image', ['file' => $page->image('graphics-rete.png'), 'class' => '--span-1', 'alt' => 'Simbolo rete commerciale']) ?>
+        <?php snippet('image', ['file' => $page->image('graphics-spedizioni.png'), 'class' => '--span-1', 'alt' => 'Simbolo spedizioni']) ?>
+        <?php snippet('image', ['file' => $page->image('graphics-certificazioni.png'), 'class' => '--span-1', 'alt' => 'Simbolo certificazioni']) ?>
         <div class="section-block --span-1-3">
             <p class="section-subtitle --text-subtitle">Ufficio tecnico</p>
             <p class="section-text --text-body">Accompagnamo i nostri clienti nella scelta delle soluzioni
@@ -129,9 +122,7 @@
                 prodotti affidabili e testati, conformi alla marcatura CE in linea con le direttive europee in
                 materia.</p>
         </div>
-        <img class="section-cover --span-1-5"
-            src="<?= $page->image('graphics-boxes.png')?->resize(1200, null)->url() ?>" loading="lazy"
-            alt="Disegno vettoriale di alcune scatole da spedizione">
+        <?php snippet('image', ['file' => $page->image('graphics-boxes.png'), 'class' => 'section-cover --span-1-5', 'alt' => 'Disegno vettoriale di alcune scatole da spedizione']) ?>
     </div>
     </div>
 </section>

@@ -18,8 +18,7 @@
     <div class="container">
         <div class="section-background --span-1-5"
             style="background: url('<?= $page->background()->toFile()->url() ?>') no-repeat center center/cover fixed;">
-            <img src="<?= $page->cover()->toFile()->resize(1200, null)->url() ?>" loading="lazy"
-                alt="<?= $page->title() ?>">
+            <?php snippet('image', ['file' => $page->cover()->toFile(), 'alt' => $page->title()]) ?>
         </div>
     </div>
 </section>
@@ -34,8 +33,7 @@
         <div class="shutter-container --span-1-5">
             <div class="shutter-container-layer">
                 <div class="shutter-container-cover">
-                    <img src="<?= $page->image('sistema16-sezione-confronto-quote.png')?->resize(1200, null)->url() ?>"
-                        loading="lazy">
+                    <?php snippet('image', ['file' => $page->image('sistema16-sezione-confronto-quote.png'), 'alt' => 'Sezione del Sistema 16 Alumframe']) ?>
                 </div>
             </div>
             <div class="shutter-container-ui">
@@ -47,8 +45,7 @@
             </div>
             <div class="shutter-container-layer --element">
                 <div class="shutter-container-cover">
-                    <img src="<?= $page->image('ekotech-sezione-confronto-quote-2.png')?->resize(1200, null)->url() ?>"
-                        loading="lazy">
+                    <?php snippet('image', ['file' => $page->image('ekotech-sezione-confronto-quote-2.png'), 'alt' => 'Sezione di Ekotech']) ?>
                 </div>
             </div>
         </div>
@@ -59,8 +56,7 @@
     <div id="pensare-circolare" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3"
             style="padding: 1rem; background: url('<?= $page->image('1-ekotech-grano-bg.jpg')?->url() ?>') no-repeat center center/cover fixed;">
-            <img src="<?= $page->image('1-ekotech-grano.jpg')?->resize(1200, null)->url() ?>" loading="lazy"
-                alt="Fotografia di un campo di grano">
+            <?php snippet('image', ['file' => $page->image('1-ekotech-grano.jpg'), 'alt' => 'Fotografia di un campo di grano']) ?>
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Pensare circolare</h3>
@@ -120,14 +116,12 @@
         </div>
         <div class="section-col section-col--image section-col--right --span-3-5" style="padding: 1rem; background: url('<?= $page->image('2-ekotech-profilo-render-bg.jpg')?->url() ?>') no-repeat center
             center/cover fixed;">
-            <img src="<?= $page->image('2-ekotech-profilo-render.png')?->resize(1200, null)->url() ?>" loading="lazy"
-                alt="Fotografia del profilo di Ekotech">
+            <?php snippet('image', ['file' => $page->image('2-ekotech-profilo-render.png'), 'alt' => 'Fotografia del profilo di Ekotech']) ?>
         </div>
     </div>
     <div id="posa" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="<?= $page->image('3-ekotech-posa.png')?->resize(1200, null)->url() ?>" loading="lazy"
-                alt="Fotografia del profilo di Ekotech">
+            <?php snippet('image', ['file' => $page->image('3-ekotech-posa.png'), 'alt' => 'Fotografia del profilo di Ekotech']) ?>
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Sistema di posa</h3>
@@ -168,8 +162,7 @@
         </div>
         <div class="section-col section-col--image section-col--right --span-3-5" style="padding: 1rem; background: url('<?= $page->image('4-ekotech-colori-bg.jpg')?->url() ?>') no-repeat center
             center/cover fixed;">
-            <img src="<?= $page->image('4-ekotech-colori.png')?->resize(1200, null)->url() ?>" loading="lazy"
-                alt="Fotografia di campioni di colore di Ekotech">
+            <?php snippet('image', ['file' => $page->image('4-ekotech-colori.png'), 'alt' => 'Fotografia di campioni di colore di Ekotech']) ?>
         </div>
     </div>
     </div>
