@@ -32,7 +32,7 @@
 <section class="section --dark-theme">
     <div id="ekotech" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="/content/home/ekotech-colori.png" alt="Profili Ekotech in diverse colorazioni">
+            <img src="<?= $page->image('ekotech-colori.png')?->url() ?>" alt="Profili Ekotech in diverse colorazioni">
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Ekotech: più spazio alla luce</h3>
@@ -41,7 +41,7 @@
             <p class="section-text --text-body">Legno, Resysta® e alluminio Alumframe:
                 dall'unione di questi tre materiali nasce Ekotech, il nuovo concept di serramento ecologico e minimale,
                 realizzato con il telaio a base di buccia di riso.</p>
-            <a class="button button--outline" aria-label="Scopri Ekotech" type="button" href="/ekotech">Scopri
+            <a class="button button--outline" aria-label="Scopri Ekotech" type="button" href="<?= page('ekotech')?->url() ?>">Scopri
                 Ekotech</a>
         </div>
     </div>
@@ -58,15 +58,15 @@
                 tradizione
                 degli infissi e dei serramenti in legno.</p>
             <a class="button button--outline" aria-label="Scopri il legno-alluminio" type="button"
-                href="/alumframe">Scopri il legno-alluminio</a>
+                href="<?= page('alumframe')?->url() ?>">Scopri il legno-alluminio</a>
         </div>
         <div class="section-col section-col--image section-col--right --span-3-5">
-            <img src="/content/home/graphics-alumframe.png" alt="Profilo Alumframe legno-alluminio">
+            <img src="<?= $page->image('graphics-alumframe.png')?->url() ?>" alt="Profilo Alumframe legno-alluminio">
         </div>
     </div>
     <div id="accessori" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="/content/home/graphics-accessori.png"
+            <img src="<?= $page->image('graphics-accessori.png')?->url() ?>"
                 alt="Accessori per finestre, guarnizioni, soglie e gocciolatoi">
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
@@ -76,7 +76,7 @@
             <p class="section-text --text-body">Gli accessori DGT Srl rientrano nel programma Cascading Freud, per
                 finestre e porte conformi alla marcatura CE. Sono prodotti testati e rispondenti ad alti standard
                 qualitativi e di sicurezza, con l'ulteriore garanzia del Made in Italy.</p>
-            <a class="button button--outline" aria-label="Scopri gli accessori" type="button" href="/accessori">Scopri
+            <a class="button button--outline" aria-label="Scopri gli accessori" type="button" href="<?= page('accessori')?->url() ?>">Scopri
                 gli accessori</a>
         </div>
     </div>
@@ -85,10 +85,10 @@
 <section id="servizi" class="section --light-theme">
     <div class="container">
         <h2 class="section-heading --text-heading --span-1-5">Tecnologia in scatola <br>e servizi su misura</h2>
-        <img class="--span-1" src="/content/home/graphics-ufficio tecnico.png" alt="Simbolo ufficio tecnico">
-        <img class="--span-1" src="/content/home/graphics-rete.png" alt="Simbolo rete commerciale">
-        <img class="--span-1" src="/content/home/graphics-spedizioni.png" alt="Simbolo spedizioni">
-        <img class="--span-1" src="/content/home/graphics-certificazioni.png" alt="Simbolo certificazioni">
+        <img class="--span-1" src="<?= $page->image('graphics-ufficio tecnico.png')?->url() ?>" alt="Simbolo ufficio tecnico">
+        <img class="--span-1" src="<?= $page->image('graphics-rete.png')?->url() ?>" alt="Simbolo rete commerciale">
+        <img class="--span-1" src="<?= $page->image('graphics-spedizioni.png')?->url() ?>" alt="Simbolo spedizioni">
+        <img class="--span-1" src="<?= $page->image('graphics-certificazioni.png')?->url() ?>" alt="Simbolo certificazioni">
         <div class="section-block --span-1-3">
             <p class="section-subtitle --text-subtitle">Ufficio tecnico</p>
             <p class="section-text --text-body">Accompagnamo i nostri clienti nella scelta delle soluzioni
@@ -122,7 +122,7 @@
                 prodotti affidabili e testati, conformi alla marcatura CE in linea con le direttive europee in
                 materia.</p>
         </div>
-        <img class="section-cover --span-1-5" src="/content/home/graphics-boxes.png"
+        <img class="section-cover --span-1-5" src="<?= $page->image('graphics-boxes.png')?->url() ?>"
             alt="Disegno vettoriale di alcune scatole da spedizione">
     </div>
     </div>
@@ -146,7 +146,7 @@
                 uno sguardo a 360 gradi intorno alla tua finestra.</p>
         </div>
         <video class="section-cover --span-1-5" autoplay muted loop>
-            <source src="/content/home/dgt-teaser.mp4" type="video/mp4">
+            <source src="<?= $page->file('dgt-teaser.mp4')?->url() ?>" type="video/mp4">
             Il tuo browser non supporta il tag video.
         </video>
     </div>

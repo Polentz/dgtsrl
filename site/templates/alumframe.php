@@ -14,13 +14,13 @@
 
 <section class="section --dark-theme">
     <div class="gallery">
-        <?php foreach ($page->children()->listed() as $page): ?>
+        <?php foreach ($page->children()->listed() as $item): ?>
             <figure class="gallery-item --span-1">
-                <a href="<?= $page->url() ?>" target="_blank">
-                    <img src="<?= $page->cover()->toFile()->url() ?>" alt="<?= $page->title() ?>">
+                <a href="<?= $item->url() ?>" target="_blank">
+                    <img src="<?= $item->cover()->toFile()->url() ?>" alt="<?= $item->title() ?>">
                 </a>
                 <figcaption class="gallery-caption --text-title">
-                    <a href="<?= $page->url() ?>" target="_blank"><?= $page->title() ?></a>
+                    <a href="<?= $item->url() ?>" target="_blank"><?= $item->title() ?></a>
                 </figcaption>
             </figure>
         <?php endforeach ?>
@@ -45,7 +45,7 @@
 <section class="section --dark-theme">
     <div id="symbio" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="/content/alumframe/symbio-2.png" alt="Render del sistema Symbio">
+            <img src="<?= $page->image('symbio-2.png')?->url() ?>" alt="Render del sistema Symbio">
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Symbio: l'armonia nasce dal contrasto</h3>
@@ -59,9 +59,11 @@
                 <li>Semplificazione nella produzione e riduzione dei costi</li>
                 <li>Il bicolore non è mai stato così facile da realizzare</li>
             </ul>
+            <?php if ($brochure = $page->file('DGT-SYMBIO-brochure.pdf')): ?>
             <a class="button button--outline" aria-label="Scarica la brochure" type="button"
-                href="/content/alumframe/DGT-SYMBIO-brochure.pdf" target="_blank">Scarica
+                href="<?= $brochure->url() ?>" target="_blank">Scarica
                 la brochure</a>
+            <?php endif ?>
         </div>
     </div>
     <div id="alumfast" class="container">
@@ -81,12 +83,12 @@
                 video</a>
         </div>
         <div class="section-col section-col--image section-col--right --span-3-5">
-            <img src="/content/alumframe/alumfast.png" alt="Profilo Alumfast">
+            <img src="<?= $page->image('alumfast.png')?->url() ?>" alt="Profilo Alumfast">
         </div>
     </div>
     <div id="finiture" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="/content/alumframe/alumframe-finiture.jpg" alt="Fotografia della palette delle colorazioni">
+            <img src="<?= $page->image('alumframe-finiture.jpg')?->url() ?>" alt="Fotografia della palette delle colorazioni">
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Ampia gamma di finiture</h3>
@@ -110,7 +112,7 @@
         </div>
 
         <video class="section-cover --span-1-5" autoplay muted loop controls>
-            <source src="/content/alumframe/alumfast.mp4" type="video/mp4">
+            <source src="<?= $page->file('alumfast.mp4')?->url() ?>" type="video/mp4">
             Il tuo browser non supporta il tag video.
         </video>
     </div>
@@ -121,8 +123,10 @@
         <div class="banner --span-1-5">
             <h3 class="banner-title --text-title">Scarica il catalogo completo dei sistemi legno-alluminio Alumframe
             </h3>
+            <?php if ($catalogo = $page->file('DGT-ALUMFRAME-catalogo-4-2025.pdf')): ?>
             <a class="button button--outline" aria-label="Scarica il catalogo" type="button"
-                href="/content/alumframe/DGT-ALUMFRAME-catalogo-4-2025.pdf" target="_blank">Scarica il catalogo</a>
+                href="<?= $catalogo->url() ?>" target="_blank">Scarica il catalogo</a>
+            <?php endif ?>
         </div>
     </div>
 </section>

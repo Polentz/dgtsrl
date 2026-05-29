@@ -1,7 +1,7 @@
 <?php
-$current = $site->children()->listed()->findBy('isOpen', true);
-$navigation = $site->children()->listed();
-$uri = $page->uri();
+$ekotech = page('ekotech');
+$alumframe = page('alumframe');
+$accessori = page('accessori');
 ?>
 
 <header class="header">
@@ -18,31 +18,34 @@ $uri = $page->uri();
         </button>
         <?php if ($slots->home()): ?>
             <nav class="nav">
-                <a href="/ekotech" class="nav-button<?= $uri === 'ekotech' ? ' --current' : '' ?>" type="button">Ekotech</a>
-                <a href="/alumframe" class="nav-button<?= $uri === 'alumframe' ? ' --current' : '' ?>"
+                <a href="<?= $ekotech?->url() ?>" class="nav-button<?= $ekotech?->isOpen() ? ' --current' : '' ?>"
+                    type="button">Ekotech</a>
+                <a href="<?= $alumframe?->url() ?>" class="nav-button<?= $alumframe?->isOpen() ? ' --current' : '' ?>"
                     type="button">Legno-alluminio</a>
-                <a href="/accessori" class="nav-button<?= $uri === 'accessori' ? ' --current' : '' ?>"
+                <a href="<?= $accessori?->url() ?>" class="nav-button<?= $accessori?->isOpen() ? ' --current' : '' ?>"
                     type="button">Accessori</a>
-                <a href="/alumframe#symbio" class="nav-button" type="button">Symbio<span class="nav-label">Novità</span></a>
+                <a href="<?= $alumframe?->url() ?>#symbio" class="nav-button" type="button">Symbio<span
+                        class="nav-label">Novità</span></a>
                 <a href="#servizi" class="nav-button" type="button">L'azienda</a>
                 <a href="#contatti" class="nav-button" type="button">Contatti</a>
             </nav>
         <?php else: ?>
             <nav class="nav">
-                <a href="/ekotech" class="nav-button<?= $uri === 'ekotech' ? ' --current' : '' ?>" type="button">Ekotech</a>
-                <a href="/alumframe" class="nav-button<?= $uri === 'alumframe' ? ' --current' : '' ?>"
+                <a href="<?= $ekotech?->url() ?>" class="nav-button<?= $ekotech?->isOpen() ? ' --current' : '' ?>"
+                    type="button">Ekotech</a>
+                <a href="<?= $alumframe?->url() ?>" class="nav-button<?= $alumframe?->isOpen() ? ' --current' : '' ?>"
                     type="button">Legno-alluminio</a>
-                <a href="/accessori" class="nav-button<?= $uri === 'accessori' ? ' --current' : '' ?>"
+                <a href="<?= $accessori?->url() ?>" class="nav-button<?= $accessori?->isOpen() ? ' --current' : '' ?>"
                     type="button">Accessori</a>
                 <?php if ($page->intendedTemplate()->name() === 'alumframe'): ?>
                     <a href="#symbio" class="nav-button" type="button">Symbio<span class="nav-label">Novità</span></a>
                 <?php else: ?>
-                    <a href="/alumframe#symbio" class="nav-button" type="button">Symbio<span class="nav-label">Novità</span></a>
+                    <a href="<?= $alumframe?->url() ?>#symbio" class="nav-button" type="button">Symbio<span
+                            class="nav-label">Novità</span></a>
                 <?php endif ?>
                 <a href="#catalogo" class="nav-button" type="button">Catalogo</a>
                 <a href="#contatti" class="nav-button" type="button">Contatti</a>
             </nav>
         <?php endif ?>
-
     </menu>
 </header>

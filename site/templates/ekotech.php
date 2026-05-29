@@ -33,7 +33,7 @@
         <div class="shutter-container --span-1-5">
             <div class="shutter-container-layer">
                 <div class="shutter-container-cover">
-                    <img src="/content/ekotech/sistema16-sezione-confronto-quote.png">
+                    <img src="<?= $page->image('sistema16-sezione-confronto-quote.png')?->url() ?>">
                 </div>
             </div>
             <div class="shutter-container-ui">
@@ -45,7 +45,7 @@
             </div>
             <div class="shutter-container-layer --element">
                 <div class="shutter-container-cover">
-                    <img src="/content/ekotech/ekotech-sezione-confronto-quote-2.png">
+                    <img src="<?= $page->image('ekotech-sezione-confronto-quote-2.png')?->url() ?>">
                 </div>
             </div>
         </div>
@@ -55,8 +55,8 @@
 <section class="section --ekotech-theme">
     <div id="pensare-circolare" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3"
-            style="padding: 1rem; background: url('/content/ekotech/1-ekotech-grano-bg.jpg') no-repeat center center/cover fixed;">
-            <img src="/content/ekotech/1-ekotech-grano.jpg" alt="Fotografia di un campo di grano">
+            style="padding: 1rem; background: url('<?= $page->image('1-ekotech-grano-bg.jpg')?->url() ?>') no-repeat center center/cover fixed;">
+            <img src="<?= $page->image('1-ekotech-grano.jpg')?->url() ?>" alt="Fotografia di un campo di grano">
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Pensare circolare</h3>
@@ -114,14 +114,14 @@
                     Più luce e meno spreco</li>
             </ul>
         </div>
-        <div class="section-col section-col--image section-col--right --span-3-5" style="padding: 1rem; background: url('/content/ekotech/2-ekotech-profilo-render-bg.jpg') no-repeat center
+        <div class="section-col section-col--image section-col--right --span-3-5" style="padding: 1rem; background: url('<?= $page->image('2-ekotech-profilo-render-bg.jpg')?->url() ?>') no-repeat center
             center/cover fixed;">
-            <img src="/content/ekotech/2-ekotech-profilo-render.png" alt="Fotografia del profilo di Ekotech">
+            <img src="<?= $page->image('2-ekotech-profilo-render.png')?->url() ?>" alt="Fotografia del profilo di Ekotech">
         </div>
     </div>
     <div id="posa" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="/content/ekotech/3-ekotech-posa.png" alt="Fotografia del profilo di Ekotech">
+            <img src="<?= $page->image('3-ekotech-posa.png')?->url() ?>" alt="Fotografia del profilo di Ekotech">
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Sistema di posa</h3>
@@ -160,9 +160,9 @@
                 </li>
             </ul>
         </div>
-        <div class="section-col section-col--image section-col--right --span-3-5" style="padding: 1rem; background: url('/content/ekotech/4-ekotech-colori-bg.jpg') no-repeat center
+        <div class="section-col section-col--image section-col--right --span-3-5" style="padding: 1rem; background: url('<?= $page->image('4-ekotech-colori-bg.jpg')?->url() ?>') no-repeat center
             center/cover fixed;">
-            <img src="/content/ekotech/4-ekotech-colori.png" alt="Fotografia di campioni di colore di Ekotech">
+            <img src="<?= $page->image('4-ekotech-colori.png')?->url() ?>" alt="Fotografia di campioni di colore di Ekotech">
         </div>
     </div>
     </div>
@@ -172,8 +172,10 @@
     <div class="container">
         <div class="banner --span-1-5">
             <h3 class="banner-title --text-title">Scarica la brochure Ekotech</h3>
+            <?php if ($brochure = $page->file('DGT-Ekotech-brochure.pdf')): ?>
             <a class="button button--outline" aria-label="Scarica la brochure" type="button"
-                href="/content/ekotech/DGT-Ekotech-brochure.pdf" target="_blank">Scarica la brochure</a>
+                href="<?= $brochure->url() ?>" target="_blank">Scarica la brochure</a>
+            <?php endif ?>
         </div>
     </div>
 </section>
@@ -183,8 +185,10 @@
         <div class="banner --span-1-5">
             <h3 class="banner-title --text-title">Scarica il catalogo tecnico Ekotech
             </h3>
+            <?php if ($catalogo = $page->file('DGT-Ekotech-catalogo-01-2025.pdf')): ?>
             <a class="button button--outline" aria-label="Scarica il catalogo" type="button"
-                href="/content/ekotech/DGT-Ekotech-catalogo-01-2025.pdf" target="_blank">Scarica il catalogo</a>
+                href="<?= $catalogo->url() ?>" target="_blank">Scarica il catalogo</a>
+            <?php endif ?>
         </div>
     </div>
 </section>

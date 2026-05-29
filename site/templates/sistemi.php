@@ -81,8 +81,10 @@
         <div class="banner --span-1-5">
             <h3 class="banner-title --text-title">Scarica il catalogo completo dei sistemi legno-alluminio Alumframe
             </h3>
+            <?php if ($catalogo = page('alumframe')?->file('DGT-ALUMFRAME-catalogo-4-2025.pdf')): ?>
             <a class="button button--outline" aria-label="Scarica il catalogo" type="button"
-                href="/content/alumframe/DGT-ALUMFRAME-catalogo-4-2025.pdf" target="_blank">Scarica il catalogo</a>
+                href="<?= $catalogo->url() ?>" target="_blank">Scarica il catalogo</a>
+            <?php endif ?>
         </div>
     </div>
 </section>
