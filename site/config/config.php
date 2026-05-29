@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'debug' => true,
+    'debug' => false,
     'jr' => [
         'static_site_generator' => [
             'endpoint' => 'static', // enables the trigger URL & Panel button
