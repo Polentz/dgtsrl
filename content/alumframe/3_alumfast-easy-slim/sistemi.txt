@@ -14,11 +14,19 @@ Maintitle: <p>ALUMFAST EASY SLIM:<br>PROFILO RIDOTTO E STILE MINIMALE</p>
 
 ----
 
-Subtitle: <p>UNA NUOVA LINEA DI PROFILI A SPESSORE RIDOTTO DAL GUSTO MINIMALISTA</p>
+Subtitle: <p>Una nuova linea di profili a spessore ridotto dal gusto minimalista</p>
 
 ----
 
 Description: <p>L’evoluzione della finestra in legno easy, che permette di realizzare un nodo più ridotto e migliori prestazioni termiche dell’infisso. Viene inoltre eliminata la guarnizione perimetrale del telaio, semplificando così il processo produttivo.</p><p>L’alluminio di spessore ridotto conferisce al prodotto un’estetica moderna e accattivante.</p><p>Il sistema è fornito come da tradizione DGT con giunzione dei profili a 90° e attraverso il sistema di vendita brevettato in kit.</p><p>Il sistema è anche applicabile sul serramento Ghost, per poter realizzare una finestra complanare sia all’interno che all’esterno ed è interamente coperto da Cascading Freud.</p>
+
+----
+
+Seo-description: Alumfast Easy Slim è una nuova linea di profili a spessore ridotto dal gusto minimalista.
+
+----
+
+Og-image: - file://dwb3zigzpddyej8l
 
 ----
 

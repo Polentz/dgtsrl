@@ -17,11 +17,19 @@ Maintitle: <p>ALUMFAST GRACE:<br>NODI RIDOTTISSIMI</p>
 
 ----
 
-Subtitle: <p>NUOVO PROGETTO DELLA FAMIGLIA ALUMFRAME, ALUMFAST GRACE MIGLIORA LE PRESTAZIONI E CREA UNA FINESTRA MINIMALISTA CON NODI RIDOTTISSIMI</p>
+Subtitle: <p>Nuovo progetto della famiglia Alumframe, Alumfast Grace migliora le prestazioni e crea una finestra minimalista con nodi ridottissimi</p>
 
 ----
 
 Description: <p>&nbsp;Il progetto Grace nasce dalle richieste di mercato di realizzare una finestra minimalista con un’ampia superficie vetrata, partendo da un serramento standard di tipo Easy.</p><p>Il nodo complessivo della finestra è 84 mm, con una sezione anta che arriva fino a 62 mm.</p><p>L’innovativa clip studiata appositamente permette di avere un alluminio sull’anta molto ridotto, di soli 31 mm di larghezza e 8 mm di spessore.</p><p>Il sistema è fornito come da tradizione D.G.T. con giunzione dei profili a 90° e attraverso il sistema di vendita brevettato in kit.</p><p>Grace è anche disponibile nella versione Bridge: con un telaio in alluminio sottile e allungato per una copertura totale dell’anta la finestra può interamente scomparire nel muro, lasciando visibile dall’esterno la sola superficie vetrata e, all’interno, la bellezza di un serramento in legno.</p><p>Il sistema è coperto da Cascading Freud.</p>
+
+----
+
+Seo-description: Nuovo progetto della famiglia Alumframe, Alumfast Grace migliora le prestazioni e crea una finestra minimalista con nodi ridottissimi.
+
+----
+
+Og-image: - file://afze3h03s1e1c7rj
 
 ----
 

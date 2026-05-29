@@ -14,11 +14,19 @@ Maintitle: <p>ALUMFAST: GLI ALZANTI SCORREVOLI</p>
 
 ----
 
-Subtitle: <p>Applicabile con diverse dimensioni di soglia, L’alzante scorrevole Alumfast è studiato per ferramenta AGB, Maico e GU, sia per lo scorrevole con anta fissa che per la versione, più luminosa, con vetro a terra</p>
+Subtitle: <p>Applicabile con diverse dimensioni di soglia, l’alzante scorrevole Alumfast è studiato per ferramenta AGB, MAICO e GU, sia per lo scorrevole con anta fissa che per la versione, più luminosa, con vetro a terra</p>
 
 ----
 
-Description: <p>L’alzante scorrevole Alumfast è disponibile in molteplici versioni: standard (anta da 88mm), un progetto con legno più visibile (anta da 100mm), un progetto più minimale (anta da 74mm). Per quanto riguarda la tipologia Imago si riesce a raggiungere un nodo ridottissimo: 55mm con ferramenta AGM e 65mm con ferramenta Maico.&nbsp;</p><p>L’utilizzo della nuova clip con basetta di sostegno per il vetro permette di eliminare i listelli interni riportati, mantenendo lo stesso aspetto interno delle finestre legno alluminio classiche. Rendendo così possibile il montaggio vetro dall’esterno che permette di trasportare il serramento in cantiere in più fasi.</p>
+Description: <p>L’alzante scorrevole Alumfast è disponibile in molteplici versioni: standard (anta da 88mm), un progetto con legno più visibile (anta da 100mm), un progetto più minimale (anta da 74mm). Per quanto riguarda la tipologia Imago si riesce a raggiungere un nodo ridottissimo: 55mm con ferramenta AGM e 65mm con ferramenta MAICO.&nbsp;</p><p>L’utilizzo della nuova clip con basetta di sostegno per il vetro permette di eliminare i listelli interni riportati, mantenendo lo stesso aspetto interno delle finestre legno alluminio classiche. Rendendo così possibile il montaggio vetro dall’esterno che permette di trasportare il serramento in cantiere in più fasi.</p>
+
+----
+
+Seo-description: Applicabile con diverse dimensioni di soglia, l’alzante scorrevole Alumfast è studiato per ferramenta AGB, MAICO e GU, sia per lo scorrevole con anta fissa che per la versione, più luminosa, con vetro a terra.
+
+----
+
+Og-image: - file://bal36unzrguj7shr
 
 ----
 

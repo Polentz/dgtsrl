@@ -1,6 +1,6 @@
 <?php
 $seoTitle = $page->is('home') ? $site->title() . ': Il mondo intorno alla tua finestra' : $site->title() . ': ' . $page->title();
-$seoDescription = $page->description()->isNotEmpty() ? $page->description()->escape() : $site->description()->escape();
+$seoDescription = $page->seo_description()->isNotEmpty() ? $page->seo_description()->escape() : $site->seo_description()->escape();
 $seoUrl = $page->url();
 $seoImage = $page->og_image()->toFile() ?? $site->og_image()->toFile();
 $seoImageUrl = $seoImage ? $seoImage->url() : $page->image()->url();
@@ -36,6 +36,7 @@ $seoImageUrl = $seoImage ? $seoImage->url() : $page->image()->url();
         <meta name="twitter:image" content="<?= $seoImageUrl ?>">
         <meta name="twitter:image:alt" content="<?= $seoTitle ?>">
     <?php endif ?>
+    <link href="<?= $site->favicon()->toFile()->url() ?>" rel="icon" type="image/x-icon">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <link rel="stylesheet" href="https://use.typekit.net/xto7pui.css">
     <?= css([

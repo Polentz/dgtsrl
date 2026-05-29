@@ -5,7 +5,7 @@
     <div class="container">
         <h2 class="section-heading --span-1-5 --text-heading">Accessori per finestre sicure e certificate</h2>
         <div class="section-block --span-1-5">
-            <h3 class="section-title --text-title">Guarnizioni, soglie e gocciolatoi: fornitura completa per le tue
+            <h3 class="section-title --text-title">Guarnizioni, soglie e gocciolatoi: la fornitura completa per le tue
                 finestre in legno e legno-alluminio</h3>
         </div>
     </div>
@@ -106,7 +106,8 @@
         </div>
         <div class="section-grid --span-1-5">
             <figure class="--span-1">
-                <img src="<?= $page->image('grondalino.svg')?->url() ?>" alt="Disegno tecnico di un grondalino per serramenti">
+                <img src="<?= $page->image('grondalino.svg')?->url() ?>"
+                    alt="Disegno tecnico di un grondalino per serramenti">
                 <figcaption class="--text-caption">Grondalino</figcaption>
             </figure>
             <figure class="--span-1">
@@ -114,7 +115,8 @@
                 <figcaption class="--text-caption">Clip</figcaption>
             </figure>
             <figure class="--span-1">
-                <img src="<?= $page->image('copertura.svg')?->url() ?>" alt="Disegno tecnico di una copertura per serramenti">
+                <img src="<?= $page->image('copertura.svg')?->url() ?>"
+                    alt="Disegno tecnico di una copertura per serramenti">
                 <figcaption class="--text-caption">Cover</figcaption>
             </figure>
             <figure class="--span-1">
@@ -126,7 +128,8 @@
                 <figcaption class="--text-caption">Clip</figcaption>
             </figure>
             <figure class="--span-1">
-                <img src="<?= $page->image('fermavetro.svg')?->url() ?>" alt="Disegno tecnico di un fermavetro per serramenti">
+                <img src="<?= $page->image('fermavetro.svg')?->url() ?>"
+                    alt="Disegno tecnico di un fermavetro per serramenti">
                 <figcaption class="--text-caption">Fermavetro</figcaption>
             </figure>
         </div>
@@ -139,8 +142,8 @@
             <h3 class="banner-title --text-title">Scarica il catalogo completo degli accessori DGT Srl</h3>
             </h3>
             <?php if ($catalogo = $page->file('DGT-catalogo-10-2025.pdf')): ?>
-            <a class="button button--outline" aria-label="Scarica il catalogo" type="button"
-                href="<?= $catalogo->url() ?>" target="_blank">Scarica il catalogo</a>
+                <a class="button button--outline" aria-label="Scarica il catalogo" type="button"
+                    href="<?= $catalogo->url() ?>" target="_blank">Scarica il catalogo</a>
             <?php endif ?>
         </div>
     </div>

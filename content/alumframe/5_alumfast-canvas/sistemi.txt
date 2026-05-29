@@ -26,6 +26,14 @@ Description: <p>Un nuovo modello di finestra all’avanguardia, con spessori 80,
 
 ----
 
+Seo-description: Con Alumfast Canvas, la posa a filo muro permette di lasciare il massimo spazio possibile alla superficie vetrata.
+
+----
+
+Og-image: - file://dirbryfodcwdpscn
+
+----
+
 Text: 
 
 ----

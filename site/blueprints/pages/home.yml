@@ -1,18 +1,12 @@
-title: Ekotech
+title: Home
 
 columns:
   main:
     width: 2/3
     sections:
       content:
-        type: fields
-        fields:
-          background:
-            label: Sfondo
-            type: files
-          cover:
-            label: copertina
-            type: files
+        label: Contenuto
+        type: info 
   sidebar:
     width: 1/3
     sections:

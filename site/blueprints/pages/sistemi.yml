@@ -11,19 +11,29 @@ columns:
             type: files
           gallery:
             type: files
-  sidebar:
-    width: 1/3
-    sections:
-      text:
-        type: fields
-        fields:
           maintitle:
+            label: Titolo
             type: writer
             nodes: false  
           subtitle:
+            label: Sotttotitolo
             type: writer
             nodes: false  
           description:
+            label: Descrizione
             type: writer
             nodes: false  
+  sidebar:
+    width: 1/3
+    sections:
+      seo:
+        type: fields
+        fields:
+          seo_description:
+            label: Descrizione
+            type: textarea
+            buttons: false   
+          og_image:
+            type: files
+            multiple: false
 

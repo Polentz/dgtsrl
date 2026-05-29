@@ -1,1 +1,17 @@
 Title: DGT Srl
+
+----
+
+Seo-description: DGT Srl lavora al fianco di falegnami e serramentisti con idee e soluzioni intorno alla tua finestra in legno e legno-alluminio. Progettiamo e produciamo sistemi completi per la lavorazione del serramento: dalla progettazione di sistemi legno-alluminio, alla produzione di guarnizioni, fino alla fornitura di soglie, gocciolatoi e accessori tecnici di qualità.
+
+----
+
+Og-image: - file://1j2ksrmjixuayget
+
+----
+
+Favicon: - file://xxwj3plw5jjetdqw
+
+----
+
+Description: DGT Srl lavora al fianco di falegnami e serramentisti con idee e soluzioni intorno alla tua finestra in legno e legno-alluminio. Progettiamo e produciamo sistemi completi per la lavorazione del serramento: dalla progettazione di sistemi legno-alluminio, alla produzione di guarnizioni, fino alla fornitura di soglie, gocciolatoi e accessori tecnici di qualità.

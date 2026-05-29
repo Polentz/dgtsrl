@@ -26,6 +26,14 @@ Description: <p>La giunzione dei profili a 90° segue l’estetica della finestr
 
 ----
 
+Seo-description: Primo progetto della famiglia ALUMFRAME, Alumfast Standard nasce con un profilo squadrato dalle linee moderne con uno stile sempre attuale per ogni tipologia di serramento.
+
+----
+
+Og-image: - file://ttxh5igzlus9tj7x
+
+----
+
 Text: 
 
 ----

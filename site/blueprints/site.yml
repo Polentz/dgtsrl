@@ -1,18 +1,33 @@
 title: Site
 
-sections:
-  pages:
-    type: pages
-    template:
-      - ekotech
-      - alumframe
-  tools:
-    type: fields
-    fields:
-      staticSiteGenerator:
-        type: staticSiteGenerator
-        label: Generate static site
-        help: Exports all pages as static HTML
-        progress: Please wait, generating…
-        success: Static site generated successfully!
-        error: Something went wrong.
+columns:
+  main:
+    width: 2/3
+    sections:
+      pages:
+        type: pages
+        template:
+          - home
+          - ekotech
+          - alumframe
+          - accessori
+        image:
+          cover: true
+          ratio: 1/1
+          query: page.og_image.toFile()         
+  sidebar:
+    width: 1/3
+    sections:
+      seo:
+        type: fields
+        fields:
+          seo_description:
+            label: Descrizione
+            type: textarea
+            buttons: false  
+          og_image:
+            type: files
+            multiple: false
+          favicon:
+            type: files
+            multiple: false

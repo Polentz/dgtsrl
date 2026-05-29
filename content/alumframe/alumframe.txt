@@ -2,4 +2,12 @@ Title: Alumframe
 
 ----
 
+Seo-description: Dal 2016, DGT Srl è anche Alumframe, una linea di profili in legno-alluminio progettati per portare uno stile contemporaneo e di design all'interno della tradizione degli infissi e dei serramenti in legno. I sistemi legno-alluminio Alumframe offrono linee moderne e un sistema di montaggio rapido senza rischi.
+
+----
+
+Og-image: - file://jayv2gwuifvgtsae
+
+----
+
 Uuid: e2qr2z6orwuulilj

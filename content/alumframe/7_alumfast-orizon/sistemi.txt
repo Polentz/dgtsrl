@@ -26,6 +26,14 @@ Description: <p>Orizon è stato sviluppato per essere installato su tutti i prin
 
 ----
 
+Seo-description: Alumfast Orizon rivoluziona il sistema complanare introducendo per la prima volta una giunzione a 90 gradi.
+
+----
+
+Og-image: - file://r7xk9xefokyjy2pm
+
+----
+
 Text: 
 
 ----

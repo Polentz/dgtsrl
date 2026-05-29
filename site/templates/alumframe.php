@@ -16,11 +16,11 @@
     <div class="gallery">
         <?php foreach ($page->children()->listed() as $item): ?>
             <figure class="gallery-item --span-1">
-                <a href="<?= $item->url() ?>" target="_blank">
+                <a href="<?= $item->url() ?>">
                     <img src="<?= $item->cover()->toFile()->url() ?>" alt="<?= $item->title() ?>">
                 </a>
                 <figcaption class="gallery-caption --text-title">
-                    <a href="<?= $item->url() ?>" target="_blank"><?= $item->title() ?></a>
+                    <a href="<?= $item->url() ?>"><?= $item->title() ?></a>
                 </figcaption>
             </figure>
         <?php endforeach ?>
@@ -60,9 +60,9 @@
                 <li>Il bicolore non è mai stato così facile da realizzare</li>
             </ul>
             <?php if ($brochure = $page->file('DGT-SYMBIO-brochure.pdf')): ?>
-            <a class="button button--outline" aria-label="Scarica la brochure" type="button"
-                href="<?= $brochure->url() ?>" target="_blank">Scarica
-                la brochure</a>
+                <a class="button button--outline" aria-label="Scarica la brochure" type="button"
+                    href="<?= $brochure->url() ?>" target="_blank">Scarica
+                    la brochure</a>
             <?php endif ?>
         </div>
     </div>
@@ -88,7 +88,8 @@
     </div>
     <div id="finiture" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="<?= $page->image('alumframe-finiture.jpg')?->url() ?>" alt="Fotografia della palette delle colorazioni">
+            <img src="<?= $page->image('alumframe-finiture.jpg')?->url() ?>"
+                alt="Fotografia della palette delle colorazioni">
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Ampia gamma di finiture</h3>
@@ -124,8 +125,8 @@
             <h3 class="banner-title --text-title">Scarica il catalogo completo dei sistemi legno-alluminio Alumframe
             </h3>
             <?php if ($catalogo = $page->file('DGT-ALUMFRAME-catalogo-4-2025.pdf')): ?>
-            <a class="button button--outline" aria-label="Scarica il catalogo" type="button"
-                href="<?= $catalogo->url() ?>" target="_blank">Scarica il catalogo</a>
+                <a class="button button--outline" aria-label="Scarica il catalogo" type="button"
+                    href="<?= $catalogo->url() ?>" target="_blank">Scarica il catalogo</a>
             <?php endif ?>
         </div>
     </div>

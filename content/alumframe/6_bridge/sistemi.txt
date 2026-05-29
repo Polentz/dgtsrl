@@ -17,11 +17,19 @@ Maintitle: <p>BRIDGE: ESTETICA MODERNA<br>E SPESSORI RIDOTTI</p>
 
 ----
 
-Subtitle: <p>ESTETICA MODERNA E SPESSORI RIDOTTI PER UNA FINESTRA CHE, DALL’ESTERNO, LASCIA LA SCENA SOLO ALLA SUPERFICIE VETRATA E, ALL’INTERNO, OFFRE IL CALORE DI UNA FINESTRA IN LEGNO</p>
+Subtitle: <p>Estetica moderna e spessori ridotti per una finestra che, dall’esterno, lascia la scena solo alla superficie vetrata e, all’interno, offre il calore di una finestra in legno</p>
 
 ----
 
 Description: <p>Con un telaio in alluminio sottile e allungato per una copertura quasi totale dell’anta, il profilo Bridge è un estruso a camera chiusa che offre una maggiore resistenza al momento del montaggio dell’alluminio e una superficie piana ben verniciata visibile dall’interno.</p><p>La giunzione dei profili a 90° segue l’estetica della finestra in legno e garantisce un montaggio rapido e sicuro, anche grazie ad accessori studiati ad hoc (clip auto-posizionanti, terminali per profili telaio per l’evacuazione dell’acqua e anti-taglio per profili anta). Il sistema di vendita in kit è brevettato, assicura tempi di consegna rapidi e nessuno stoccaggio di materiale (guarnizioni, clip) in quanto gli accessori sono forniti già montati sul telaietto.&nbsp;</p><p>Bridge è applicabile ai serramenti Sistema 21, Sistema 16, Easy e Grace.</p><p>Il sistema è coperto da Cascading Freud.</p>
+
+----
+
+Seo-description: Bridge: estetica moderna e spessori ridotti per una finestra che, dall’esterno, lascia la scena solo alla superficie vetrata e, all’interno, offre il calore di una finestra in legno.
+
+----
+
+Og-image: - file://k9huzpqkn5nbra41
 
 ----
 

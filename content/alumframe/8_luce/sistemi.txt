@@ -14,11 +14,19 @@ Maintitle: <p>LUCE: LA FINESTRA CON ANTA A SCOMPARSA</p>
 
 ----
 
-Subtitle: <p>IL SISTEMA LUCE NASCE PER UN SERRAMENTO IN LEGNO PARTICOLARE: UNA FINESTRA CON ANTA A SCOMPARSA, RIVESTITA ALL’ESTERNO DALLO STESSO TELAIO IN LEGNO, A FAVORE DELLA SUPERFICIE VETRATA</p>
+Subtitle: <p>Il sistema Luce nasce per un serramento in legno particolare: una finestra con anta a scomparsa, rivestita all’esterno dallo stesso telaio in legno, a favore della superficie vetrata</p>
 
 ----
 
 Description: <p>Il profilo anta è disponibile in linea PLUS o i QUADRA. Il primo si caratterizza per la geometria affusolata e viene fornito con una guarnizione adesiva già incollata in EPDM a cellule chiuse. Il secondo ha una geometria regolare e guarnizione ad incastro come nei sistemi tradizionali.&nbsp;</p><p>Il serramento è progettato per essere montato a scomparsa dietro la spalla del muro, pertanto è possibile rivestire con l’alluminio solamente l’anta e il traverso inferiore del telaio: in questo caso saranno forniti dei terminali appositi per rivestire le teste del telaio.</p><p>Il sistema Luce viene fornito già assemblato in quadri a 45°. Il sistema Luce Quadra è interamente coperto da Cascading Freud.</p>
+
+----
+
+Seo-description: Il sistema Luce nasce per un serramento in legno particolare: una finestra con anta a scomparsa, rivestita all’esterno dallo stesso telaio in legno, a favore della superficie vetrata.
+
+----
+
+Og-image: - file://zw6on5k85kavmvex
 
 ----
 

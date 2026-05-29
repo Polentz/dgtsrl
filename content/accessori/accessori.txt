@@ -2,4 +2,12 @@ Title: Accessori
 
 ----
 
+Seo-description: Guarnizioni, soglie e gocciolatoi DGT Srl assicurano alla tua finestra in legno e legno-alluminio durevolezza, alte prestazioni di tenuta, isolamento e sostenibilità. Gli accessori DGT Srl rientrano nel programma Cascading Freud, per finestre e porte conformi alla marcatura CE. Sono prodotti testati e rispondenti ad alti standard qualitativi e di sicurezza, con l'ulteriore garanzia del Made in Italy.
+
+----
+
+Og-image: - file://9eyoweldqsnqyi7y
+
+----
+
 Uuid: v05h1d7oc5aahdam

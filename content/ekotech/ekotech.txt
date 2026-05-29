@@ -10,4 +10,12 @@ Cover: - file://9w8ratrzw78nvwkw
 
 ----
 
+Seo-description: Ekotech è la nuova finestra minimale con il nodo totale ridotto a 70 mm: moderna ed ecosostenibile. Ekotech è un prodotto brevettato da DGT srl. Legno, Resysta® e alluminio Alumframe: dall'unione di questi tre materiali nasce Ekotech, il nuovo concept di serramento ecologico e minimale, realizzato con il telaio a base di buccia di riso.
+
+----
+
+Og-image: - file://spikneko19vwvseo
+
+----
+
 Uuid: snw4ebp1wqbiszcx
