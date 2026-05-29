@@ -33,7 +33,7 @@
         <div class="shutter-container --span-1-5">
             <div class="shutter-container-layer">
                 <div class="shutter-container-cover">
-                    <img src="https://www.dgtsrl.com/wp-content/uploads/2025/01/sistema16-sezione-confronto-quote.png">
+                    <img src="/content/ekotech/sistema16-sezione-confronto-quote.png">
                 </div>
             </div>
             <div class="shutter-container-ui">
@@ -45,7 +45,7 @@
             </div>
             <div class="shutter-container-layer --element">
                 <div class="shutter-container-cover">
-                    <img src="https://www.dgtsrl.com/wp-content/uploads/2025/01/ekotech-sezione-confronto-quote-2.png">
+                    <img src="/content/ekotech/ekotech-sezione-confronto-quote-2.png">
                 </div>
             </div>
         </div>
