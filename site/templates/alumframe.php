@@ -60,7 +60,7 @@
                 <li>Il bicolore non è mai stato così facile da realizzare</li>
             </ul>
             <a class="button button--outline" aria-label="Scarica la brochure" type="button"
-                href="/content/alumframe/DGT-SYMBIO-brochure.pdf">Scarica
+                href="/content/alumframe/DGT-SYMBIO-brochure.pdf" target="_blank">Scarica
                 la brochure</a>
         </div>
     </div>

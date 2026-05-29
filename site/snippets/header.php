@@ -34,7 +34,11 @@ $uri = $page->uri();
                     type="button">Legno-alluminio</a>
                 <a href="/accessori" class="nav-button<?= $uri === 'accessori' ? ' --current' : '' ?>"
                     type="button">Accessori</a>
-                <a href="#symbio" class="nav-button" type="button">Symbio<span class="nav-label">Novità</span></a>
+                <?php if ($page->intendedTemplate()->name() === 'alumframe'): ?>
+                    <a href="#symbio" class="nav-button" type="button">Symbio<span class="nav-label">Novità</span></a>
+                <?php else: ?>
+                    <a href="/alumframe#symbio" class="nav-button" type="button">Symbio<span class="nav-label">Novità</span></a>
+                <?php endif ?>
                 <a href="#catalogo" class="nav-button" type="button">Catalogo</a>
                 <a href="#contatti" class="nav-button" type="button">Contatti</a>
             </nav>

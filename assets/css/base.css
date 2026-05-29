@@ -136,11 +136,13 @@ table {
 }
 
 html {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 :after,
 :before {
+    -webkit-box-sizing: inherit;
     box-sizing: inherit;
 }
 
@@ -179,20 +181,27 @@ button {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
     -webkit-user-select: none;
 }
 
 *::-moz-selection {
-    background: var(--dgt-color);
+    color: var(--dgt-color);
 }
 
 *::selection {
-    background: var(--dgt-color);
+    color: var(--dgt-color);
 }
 
 img::-moz-selection,
 video::-moz-selection {
+    background: transparent !important;
+}
+
+img::selection,
+video::selection {
     background: transparent !important;
 }
 
