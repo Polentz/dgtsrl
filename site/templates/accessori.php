@@ -14,22 +14,28 @@
 <section class="section --dark-theme">
     <div class="gallery">
         <figure class="gallery-item --span-1">
-            <img src="<?= $page->image('guarnizioni-1.png')?->url() ?>" alt="Foto di guarnizioni">
+            <img src="<?= $page->image('guarnizioni-1.png')?->resize(1200, null)->url() ?>" loading="lazy"
+                alt="Foto di guarnizioni">
         </figure>
         <figure class="gallery-item --span-1">
-            <img src="<?= $page->image('guarnizioni-2.png')?->url() ?>" alt="Foto di guarnizioni">
+            <img src="<?= $page->image('guarnizioni-2.png')?->resize(1200, null)->url() ?>" loading="lazy"
+                alt="Foto di guarnizioni">
         </figure>
         <figure class="gallery-item --span-1">
-            <img src="<?= $page->image('guarnizioni-3.png')?->url() ?>" alt="Foto di guarnizioni">
+            <img src="<?= $page->image('guarnizioni-3.png')?->resize(1200, null)->url() ?>" loading="lazy"
+                alt="Foto di guarnizioni">
         </figure>
         <figure class="gallery-item --span-1">
-            <img src="<?= $page->image('soglie-1.jpg')?->url() ?>" alt="Foto di soglie">
+            <img src="<?= $page->image('soglie-1.jpg')?->resize(1200, null)->url() ?>" loading="lazy"
+                alt="Foto di soglie">
         </figure>
         <figure class="gallery-item --span-1">
-            <img src="<?= $page->image('soglie-2.jpg')?->url() ?>" alt="Foto di soglie">
+            <img src="<?= $page->image('soglie-2.jpg')?->resize(1200, null)->url() ?>" loading="lazy"
+                alt="Foto di soglie">
         </figure>
         <figure class="gallery-item --span-1">
-            <img src="<?= $page->image('soglie-3.jpg')?->url() ?>" alt="Foto di soglie">
+            <img src="<?= $page->image('soglie-3.jpg')?->resize(1200, null)->url() ?>" loading="lazy"
+                alt="Foto di soglie">
         </figure>
     </div>
 </section>
@@ -37,7 +43,7 @@
 <section class="section --dark-theme">
     <div id="guarnizioni" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="<?= $page->image('dgt-guarnizione-posa.jpg')?->url() ?>"
+            <img src="<?= $page->image('dgt-guarnizione-posa.jpg')?->resize(1200, null)->url() ?>" loading="lazy"
                 alt="Fotografia di una guarnizione montata su un serramento in legno">
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
@@ -72,12 +78,13 @@
             </div>
         </div>
         <div class="section-col section-col--image section-col--right --span-3-5">
-            <img src="<?= $page->image('soglie.jpg')?->url() ?>" alt="Fotografia di soglie per serramenti in legno">
+            <img src="<?= $page->image('soglie.jpg')?->resize(1200, null)->url() ?>" loading="lazy"
+                alt="Fotografia di soglie per serramenti in legno">
         </div>
     </div>
     <div id="certificazioni" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="<?= $page->image('dgt-cascading.jpg')?->url() ?>"
+            <img src="<?= $page->image('dgt-cascading.jpg')?->resize(1200, null)->url() ?>" loading="lazy"
                 alt="Simbolo del Cascading Freud, sistema di certificazione per serramenti in legno con una finestra in legno come sfondo">
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
@@ -106,29 +113,32 @@
         </div>
         <div class="section-grid --span-1-5">
             <figure class="--span-1">
-                <img src="<?= $page->image('grondalino.svg')?->url() ?>"
+                <img src="<?= $page->image('grondalino.svg')?->resize(1200, null)->url() ?>" loading="lazy"
                     alt="Disegno tecnico di un grondalino per serramenti">
                 <figcaption class="--text-caption">Grondalino</figcaption>
             </figure>
             <figure class="--span-1">
-                <img src="<?= $page->image('clip-1.svg')?->url() ?>" alt="Disegno tecnico di una clip per serramenti">
+                <img src="<?= $page->image('clip-1.svg')?->resize(1200, null)->url() ?>" loading="lazy"
+                    alt="Disegno tecnico di una clip per serramenti">
                 <figcaption class="--text-caption">Clip</figcaption>
             </figure>
             <figure class="--span-1">
-                <img src="<?= $page->image('copertura.svg')?->url() ?>"
+                <img src="<?= $page->image('copertura.svg')?->resize(1200, null)->url() ?>" loading="lazy"
                     alt="Disegno tecnico di una copertura per serramenti">
                 <figcaption class="--text-caption">Cover</figcaption>
             </figure>
             <figure class="--span-1">
-                <img src="<?= $page->image('piattine.svg')?->url() ?>" alt="Disegno tecnico di piattine per serramenti">
+                <img src="<?= $page->image('piattine.svg')?->resize(1200, null)->url() ?>" loading="lazy"
+                    alt="Disegno tecnico di piattine per serramenti">
                 <figcaption class="--text-caption">Piattine</figcaption>
             </figure>
             <figure class="--span-1">
-                <img src="<?= $page->image('clip-2.svg')?->url() ?>" alt="Disegno tecnico di una clip per serramenti">
+                <img src="<?= $page->image('clip-2.svg')?->resize(1200, null)->url() ?>" loading="lazy"
+                    alt="Disegno tecnico di una clip per serramenti">
                 <figcaption class="--text-caption">Clip</figcaption>
             </figure>
             <figure class="--span-1">
-                <img src="<?= $page->image('fermavetro.svg')?->url() ?>"
+                <img src="<?= $page->image('fermavetro.svg')?->resize(1200, null)->url() ?>" loading="lazy"
                     alt="Disegno tecnico di un fermavetro per serramenti">
                 <figcaption class="--text-caption">Fermavetro</figcaption>
             </figure>
@@ -137,7 +147,7 @@
 </section>
 
 <section id="catalogo" class="section --accessori-theme"
-    style="--theme-cover: url('<?= $page->image('accessori-copertina.jpg')?->url() ?>')">
+    style="--theme-cover: url('<?= $page->image('accessori-copertina.jpg')?->resize(1200, null)->url() ?>')">
     <div class="container">
         <div class="banner --span-1-5">
             <h3 class="banner-title --text-title">Scarica il catalogo completo degli accessori DGT Srl</h3>

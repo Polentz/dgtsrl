@@ -17,7 +17,8 @@
         <?php foreach ($page->children()->listed() as $item): ?>
             <figure class="gallery-item --span-1">
                 <a href="<?= $item->url() ?>">
-                    <img src="<?= $item->cover()->toFile()->url() ?>" alt="<?= $item->title() ?>">
+                    <img src="<?= $item->cover()->toFile()->resize(1200, null)->url() ?>" loading="lazy"
+                        alt="<?= $item->title() ?>">
                 </a>
                 <figcaption class="gallery-caption --text-title">
                     <a href="<?= $item->url() ?>"><?= $item->title() ?></a>
@@ -45,7 +46,8 @@
 <section class="section --dark-theme">
     <div id="symbio" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="<?= $page->image('symbio-2.png')?->url() ?>" alt="Render del sistema Symbio">
+            <img src="<?= $page->image('symbio-2.png')?->resize(1200, null)->url() ?>" loading="lazy"
+                alt="Render del sistema Symbio">
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
             <h3 class="section-title --text-title">Symbio: l'armonia nasce dal contrasto</h3>
@@ -83,12 +85,13 @@
                 video</a>
         </div>
         <div class="section-col section-col--image section-col--right --span-3-5">
-            <img src="<?= $page->image('alumfast.png')?->url() ?>" alt="Profilo Alumfast">
+            <img src="<?= $page->image('alumfast.png')?->resize(1200, null)->url() ?>" loading="lazy"
+                alt="Profilo Alumfast">
         </div>
     </div>
     <div id="finiture" class="container">
         <div class="section-col section-col--image section-col--left --span-1-3">
-            <img src="<?= $page->image('alumframe-finiture.jpg')?->url() ?>"
+            <img src="<?= $page->image('alumframe-finiture.jpg')?->resize(1200, null)->url() ?>" loading="lazy"
                 alt="Fotografia della palette delle colorazioni">
         </div>
         <div class="section-col section-col--content section-col--right --span-3-5">
