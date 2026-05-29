@@ -4,7 +4,8 @@
 <?php endslot() ?>
 <?php endsnippet() ?>
 
-<section class="section section-hero --dark-theme">
+<section class="section section-hero --dark-theme"
+    style="--theme-cover: url('<?= $page->image('dgt-hero.jpg')?->url() ?>')">
     <div class="container">
         <h2 class="hero-text --span-1-5 --text-heading">
             <?= $site->title() ?>: <br>

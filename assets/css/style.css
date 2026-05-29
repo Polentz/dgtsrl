@@ -32,7 +32,7 @@ video {
 }
 
 .--accessori-theme {
-    background: url('/content/accessori/accessori-copertina.jpg') no-repeat center center/cover;
+    background: var(--theme-cover) no-repeat center center/cover;
     background-attachment: fixed;
     color: var(--secondary-color);
     border-top: 1px solid var(--primary-color);
@@ -483,7 +483,7 @@ p.contact-item {
 
 .section-hero {
     height: var(--doc-height);
-    background: url('/content/home/dgt-hero.jpg') no-repeat center center/cover;
+    background: var(--theme-cover) no-repeat center center/cover;
     background-attachment: fixed;
     display: -webkit-box;
     display: -ms-flexbox;

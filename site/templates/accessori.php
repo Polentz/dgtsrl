@@ -136,7 +136,8 @@
     </div>
 </section>
 
-<section id="catalogo" class="section --accessori-theme">
+<section id="catalogo" class="section --accessori-theme"
+    style="--theme-cover: url('<?= $page->image('accessori-copertina.jpg')?->url() ?>')">
     <div class="container">
         <div class="banner --span-1-5">
             <h3 class="banner-title --text-title">Scarica il catalogo completo degli accessori DGT Srl</h3>
