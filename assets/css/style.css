@@ -39,6 +39,12 @@ video {
     border-top: 1px solid var(--primary-color);
 }
 
+.--accessori-theme .button {
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    background-color: transparent;
+}
+
 .--ekotech-theme {
     background-color: var(--ekotech-color);
     color: var(--secondary-color);

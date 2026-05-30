@@ -22,7 +22,7 @@ const animateFooterElements = () => {
 };
 
 const animateButtons = () => {
-  const buttons = document.querySelectorAll(".button");
+  const buttons = document.querySelectorAll(".banner .button");
   buttons.forEach(button => {
     gsap.set(button, { opacity: 0, y: 10, backgroundColor: "var(--secondary-color)", color: "var(--primary-color)" });
     const tl = gsap.timeline();
